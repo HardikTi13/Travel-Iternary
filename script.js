@@ -178,5 +178,124 @@ Itmad-ud-Daulah's Tomb: Often referred to as the "Baby Taj," this tomb is a beau
 Evening:
 Kinari Bazaar: Explore this vibrant market area, perfect for shopping for souvenirs, handicrafts, and tasting local delicacies.`],
 
+   Kolkata: [
+        // Day 0
+        `Kolkata, the capital city of West Bengal, is often referred to as the "Cultural Capital of India." Known for its colonial-era architecture, vibrant arts scene, and literary heritage, Kolkata offers a blend of history, culture, and culinary delights. It is home to iconic landmarks like the Victoria Memorial, Howrah Bridge, and Indian Museum.`,
+        // Day 1
+        `Day 1: Historical Landmarks
+Morning:
+Victoria Memorial: Begin your day at this grand marble building, a symbol of Kolkata's colonial past.
+Indian Museum: Explore India's oldest museum, housing a vast collection of artifacts, fossils, and artworks.
+
+Afternoon:
+Howrah Bridge: Visit this engineering marvel and iconic symbol of Kolkata.
+Marble Palace: Explore this 19th-century mansion featuring European sculptures, paintings, and antiques.
+
+Evening:
+Park Street: End your day with a stroll along this bustling street, known for its restaurants, cafes, and nightlife.`,
+        // Day 2
+        `Day 2: Culture and Spirituality
+Morning:
+Dakshineswar Kali Temple: Start your day with a visit to this famous temple dedicated to Goddess Kali.
+Belur Math: Explore the serene headquarters of the Ramakrishna Mission, known for its unique architecture.
+
+Afternoon:
+Science City: Enjoy interactive exhibits and shows at this popular science museum and entertainment complex.
+Lunch: Relish Bengali cuisine with dishes like macher jhol (fish curry) and rasgulla.
+
+Evening:
+New Market: Explore this vibrant shopping destination for handicrafts, garments, and local goods.
+Ganga River Cruise: End your day with a scenic sunset cruise on the Ganges River.`,
+    ],
+
+    Chennai: [
+        // Day 0
+        `Chennai, the capital city of Tamil Nadu, is a vibrant metropolis known for its rich cultural heritage, ancient temples, and sandy beaches. Often called the "Gateway to South India," Chennai offers a unique blend of tradition and modernity, with landmarks like Marina Beach, Kapaleeshwarar Temple, and the Government Museum.`,
+        // Day 1
+        `Day 1: Historical and Cultural Sites
+Morning:
+Kapaleeshwarar Temple: Start your day with a visit to this ancient temple dedicated to Lord Shiva, known for its Dravidian architecture.
+Santhome Basilica: Explore this historic church built over the tomb of St. Thomas, one of Jesus' apostles.
+
+Afternoon:
+Fort St. George: Visit this 17th-century fort, the first English fortress in India, housing a museum and St. Mary's Church.
+Government Museum: Explore the second-oldest museum in India, known for its impressive collection of sculptures, artifacts, and paintings.
+
+Evening:
+Marina Beach: Spend your evening at this iconic beach, enjoying the sunset, street food, and a leisurely stroll.`,
+        // Day 2
+        `Day 2: Nature and Shopping
+Morning:
+Guindy National Park: Start your day exploring this urban national park, home to diverse flora and fauna.
+Elliot's Beach: Relax and enjoy the peaceful ambiance of this less crowded beach.
+
+Afternoon:
+Dakshinachitra: Visit this cultural living museum showcasing the heritage and traditions of South India.
+Lunch: Savor authentic South Indian cuisine, including dosas, idlis, and Chettinad dishes.
+
+Evening:
+T. Nagar: Explore this bustling shopping district, famous for its silk sarees, jewelry, and handicrafts.
+Mahabalipuram: If time permits, take a short trip to this UNESCO World Heritage site, known for its rock-cut temples and sculptures.`,
+    ],
+ Jaipur: [
+        // Day 0
+        `Jaipur, the capital city of Rajasthan, is also known as the "Pink City" for its distinctive pink-colored buildings. It is renowned for its royal palaces, historic forts, vibrant bazaars, and rich cultural heritage. Jaipur forms part of the famous Golden Triangle tourist circuit along with Delhi and Agra.`,
+        // Day 1
+        `Day 1: Royal Heritage
+Morning:
+Amber Fort: Begin your day with a visit to this magnificent fort, known for its artistic Hindu-style architecture and elephant rides.
+Jaigarh Fort: Explore this historic fort located on the Aravalli hills, offering stunning views of Jaipur.
+
+Afternoon:
+City Palace: Visit the grand residence of the royal family of Jaipur, known for its intricate courtyards, museums, and architecture.
+Jantar Mantar: Explore this UNESCO World Heritage site, an astronomical observatory built by Maharaja Sawai Jai Singh II.
+
+Evening:
+Hawa Mahal: Admire the iconic "Palace of Winds," famous for its unique façade and intricate lattice work.
+Johari Bazaar: Shop for traditional jewelry, textiles, and handicrafts at this bustling market.`,
+        // Day 2
+        `Day 2: Cultural Delights
+Morning:
+Nahargarh Fort: Enjoy the panoramic views of Jaipur city from this hilltop fort.
+Albert Hall Museum: Visit this museum to explore its rich collection of art, artifacts, and historical exhibits.
+
+Afternoon:
+Chokhi Dhani: Experience the vibrant Rajasthani culture with traditional food, music, and dance at this themed village resort.
+Lunch: Relish authentic Rajasthani dishes like dal baati churma and gatte ki sabzi.
+
+Evening:
+Shopping: Explore local markets like Bapu Bazaar and Tripolia Bazaar for handicrafts, textiles, and souvenirs.`,
+    ],
+
+    Varanasi: [
+        // Day 0
+        `Varanasi, also known as Kashi or Banaras, is one of the oldest continuously inhabited cities in the world and the spiritual capital of India. Situated on the banks of the sacred Ganges River, it is renowned for its ghats, temples, and rich cultural heritage. Varanasi offers a unique blend of spirituality, history, and vibrant local life.`,
+        // Day 1
+        `Day 1: Spiritual and Historical Landmarks
+Morning:
+Kashi Vishwanath Temple: Start your day with a visit to this iconic temple dedicated to Lord Shiva, one of the twelve Jyotirlingas in India.
+Assi Ghat: Witness the serene morning Ganga Aarti and enjoy a peaceful boat ride on the river.
+
+Afternoon:
+Banaras Hindu University (BHU): Explore the sprawling campus and visit the New Vishwanath Temple within its premises.
+Sarnath: Take a short trip to this historic Buddhist site where Lord Buddha gave his first sermon.
+
+Evening:
+Dashashwamedh Ghat: Witness the grand Ganga Aarti, a mesmerizing ritual involving chants, lamps, and devotion.
+Local Cuisine: End your day with a taste of Banarasi specialties like kachori, jalebi, and the famous Banarasi paan.`,
+        // Day 2
+        `Day 2: Culture and Crafts
+Morning:
+Manikarnika Ghat: Explore this sacred cremation ghat and learn about its significance in Hindu rituals.
+Ramnagar Fort: Visit this 18th-century fort and museum, showcasing a collection of vintage artifacts, royal carriages, and weaponry.
+
+Afternoon:
+Silk Weaving Workshops: Explore the local silk weaving industry and shop for exquisite Banarasi sarees.
+Lunch: Savor more local delicacies and street food in the city's vibrant lanes.
+
+Evening:
+Tulsi Manas Mandir: Visit this beautiful temple dedicated to Lord Rama, where the Ramcharitmanas was written.
+Shopping: Explore local bazaars like Vishwanath Gali and Chowk for souvenirs, idols, and local handicrafts.`,
+    ],
 }
 
