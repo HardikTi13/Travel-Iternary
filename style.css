@@ -20,6 +20,39 @@ input{
     padding-block: 15px;
 }
 button {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #7c7373;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-inline: 20px;
+  padding-block: 15px;
+}
+
+button:hover {
+  background-color: #7c7373;
+  color: white;
+}
+
+.days select {
+  width: 95%;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
+  color: #7c7373;
+  border: 1px solid #7c7373;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-inline: 20px;
+  padding-block: 15px;
+}
+
+.child p {
+  margin-left: 10px;
+  font-weight: bolder;
+}
+button {
     width: 10%;
     padding: 10px;
     border: 1px solid #7c7373;
@@ -30,12 +63,12 @@ button {
     padding-block: 15px;
   }
   
-  button:hover {
+  button:hover{
     background-color: #7c7373;
     color: white;
   }
   
-  .days select {
+  .days select{
     width: 95%;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Grande', sans-serif;
@@ -47,9 +80,3 @@ button {
     padding-inline: 20px;
     padding-block: 15px;
   }
-  
-  .child p {
-    margin-left: 10px;
-    font-weight: bolder;
-  }
-  
