@@ -16,3 +16,7 @@ input{
     margin-top: 10px;
     margin-left: 10px;
 }
+.child p{
+    margin-left: 10px;
+    font-weight: bolder;
+}
