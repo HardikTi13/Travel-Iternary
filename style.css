@@ -57,6 +57,10 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+  }
+  h2{
+    margin-left: 20px;
   }
   
   .trip-type {
