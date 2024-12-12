@@ -19,6 +19,7 @@ input{
     padding-inline: 20px;
     padding-block: 15px;
 }
+
 button {
     width: 10%;
     padding: 10px;
@@ -53,3 +54,8 @@ button {
     font-weight: bolder;
   }
   
+
+.child p{
+    margin-left: 10px;
+    font-weight: bolder;
+
