@@ -1,0 +1,25 @@
+{
+    "cityItineraries": [
+      {
+        "city": "Mumbai",
+        "introduction": "Mumbai, also known as Bombay, is the capital city of Maharashtra and the financial, commercial, and entertainment hub of India. Known as the 'City of Dreams,' Mumbai is famous for its bustling streets, diverse culture, and iconic landmarks like the Gateway of India and Marine Drive. The city is also home to Bollywood, the heart of India's film industry. With its vibrant nightlife, historic architecture, and scenic coastal views, Mumbai offers a unique blend of tradition and modernity.",
+        "days": [
+          "Day 1: Gateway of India, Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus, Crawford Market, Marine Drive",
+          "Day 2: Siddhivinayak Temple, Haji Ali Dargah, Colaba Causeway, Prince of Wales Museum, Bandra-Worli Sea Link, Juhu Beach",
+          "Day 3: Sanjay Gandhi National Park, Film City Tour, High Street Phoenix, Dhobi Ghat, Kamala Mills"
+        ]
+      },
+      {
+        "city": "Delhi",
+        "introduction": "Delhi, the capital city of India, is a vibrant metropolis that seamlessly blends its rich historical past with modern urban culture. Known for its magnificent Mughal architecture, bustling bazaars, and diverse cuisine, Delhi offers a unique experience with its iconic landmarks like the Red Fort, India Gate, and Qutub Minar. The city is a cultural hub, reflecting the true spirit of India with its festivals, arts, and traditions.",
+        "days": [
+          "Day 1: Red Fort, Jama Masjid, Chandni Chowk, Raj Ghat, India Gate, Connaught Place",
+          "Day 2: Humayun's Tomb, Lotus Temple, Qutub Minar, Hauz Khas Village, Dilli Haat, Akshardham Temple",
+          "Day 3: National Museum, Gurudwara Bangla Sahib, Lodhi Gardens, Khan Market, Kingdom of Dreams, DLF Cyber Hub"
+        ]
+      }
+     
+    ]
+  }
+  
+  
