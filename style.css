@@ -117,7 +117,7 @@ box-sizing: border-box;
   }
                         
   body {
-    background: linear-gradient(45deg,#5e7180, #A9A9A9);
+    background: linear-gradient(45deg,#5e7180, #b3d7af);
     background-size: 400% 400%;
     animation: gradientBG 10s ease infinite;
 }
