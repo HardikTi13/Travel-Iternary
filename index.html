@@ -3,93 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TravelIfy</title>
+    <title>TravelIfy - Plan Your Next Adventure</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="navbar">
-    <h1>TravelIfy</h1>
-    <div>
-        <a href="index.html">Home</a>
-        <a href="aboutUs.html">About Us</a>
-        <a href="login.html">Login</a>
-        <a href="signup.html">Sign Up</a>
+    <div class="navbar">
+        <h1>TravelIfy</h1>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="aboutUs.html">About Us</a>
+          <a href="login.html">Login</a>
+          <a href="signup.html">Sign Up</a>
+        </div>
     </div>
-</div>
-     <div class="parent">
-    <div class="header">
-       <h1>Dream... Discover... TravelIfy...</h1>
-    </div>
-          <div class="whereto">
-    <form>
-<label for="destination"></label>
-<input type="text" id="destination" placeholder="Where To ?">
-    </form>
-</div>
-</div>
-<div class="days">
-    <form>
-      <label for="days"></label>
-      <select id="days">
-        <option value="">How Many Days ?</option>
-        <option value="1">1 day</option>
-        <option value="2">2 days</option>
-        <option value="3">3 days</option>
-        <option value="4">4 days</option>
-        <option value="5">5 days</option>
-        <option value="6">6 days</option>
-        <option value="7">7 days</option>
-        <option value="8">8 days</option>
-        <option value="9">9 days</option>
-        <option value="10">10 days</option>
-      </select>
-    </form>
-  </div>
-  <div class="submit">
-    <button type="submit" onclick="openPlanPage()">Submit</button>
-  </div>
-  <!-- <h2>Trip Types</h2> -->
-  <div class="child">
-    <h2> Recommended Trip Types:</h2>
-    <div class="trip-types">
- 
 
-      <div class="trip-type">
-        <img src="https://imgs.search.brave.com/tUfs_E46C9tdQH4p_fJI5fD8pkdQsfOROK7SgHjMK7E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jLmVr/c3RhdGljLm5ldC9k/ZXgtbWVkaWEvOTEz/L0lNRy1Xb3JsZHMt/b2YtQWR2ZW50dXJl/LURlc2t0b3AtQWN0/aXZpdHlEZXRhaWxz/LTEtMS5qcGc" alt="error">
-        <h3>Adventure Trip</h3>
-        <p>This type of trip is focused on activities like hiking, camping, and outdoor sports.Specially in mountain regions to explore the nature.</p>
-      </div>
-      <div class="trip-type">
-        <img src="https://imgs.search.brave.com/ivSjotHrwEten_8HS6Vcf92ceigzC_ofw3kj_Ixi8Xk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNi8x/MC8xOC8wOC8xMy90/cmF2ZWwtMTc0OTUw/OF82NDAuanBn" alt="error">
-        <h3>Relaxation Trip</h3>
-        <p>This type of trip is focused on relaxation and leisure. It could include activities like yoga, spa treatments, and beach activities.</p>
-      </div>
-      <div class="trip-type">
-        <img src="https://imgs.search.brave.com/fTCnlRHyoOtZuc7lah7KU-C-YFjgifRZzintjESbMTc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dG91cnJhZGFyLmNv/bS9zMy90b3VyLzY0/NXg0MzAvMTg0NDcy/XzY0NjNkOTRkMjVl/ZjIuanBn" alt="error">
-        <h3>Cultural Trip</h3>
-        <p>This type of trip is focused on exploring a new culture. It could include activities like visiting museums, attending cultural events, and trying local cuisine.</p>
-      </div>
-      <div class="trip-type">
-        <img src="https://imgs.search.brave.com/fvaEc7y6-qpDWiO-Nd_VjzAB8vBq5YGxg9oJAQVX1PE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YWR2ZW50dXJlLWxp/ZmUuY29tLzExLzEx/Lzc2L0V1cm9wZS80/NTR4MzY0LndlYnA" alt="error">
-        <h3>Food and Wine Trip</h3>
-        <p>This type of trip is focused on exploring local food and wine. It could include activities like cooking classes, winery tours, and food tours.</p>
-      </div>
-      <div class="trip-type">
-        <img src="https://imgs.search.brave.com/Z3VRzzkoRX7M-sr9ysZke3eslO9KS02q4HkIzXzQqHw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cm9hbWluZ3RoZXVz/YS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMDUvbW91/bnQtaG9vZC1vcmVn/b24td2ludGVyLTEw/MjR4NjgyLmpwZy53/ZWJw" alt="error">
-        <h3>Winter Trip</h3>
-        <p>This type of trip is focused on exploring local food and wine. It could include activities like cooking classes, winery tours, and food tours.</p>
-      </div>
-      <div class="trip-type">
-        <img src="https://www.capertravelindia.com/images/tour-tab-thumb/varanasi-thumb1.jpg" alt="error">
-        <h3>Spritual Trip</h3>
-        <p>This type of trips are basically for religious purpose and mental peace.You
-         can practice meditation here and various foods.
-        </p>
-      </div>
+    <section class="hero">
+        <h1>Your Next Adventure Awaits</h1>
+        <p>Plan your trip effortlessly with TravelIfy. Start exploring now!</p>
+    </section>
 
-    </div>
-  </div>
-</div>
-<script src="script2.js"></script>
+    <section class="form-section">
+        <form>
+            <label for="destination">Where To?</label>
+            <input type="text" id="destination" placeholder="Enter your destination">
+
+            <label for="days">How Many Days?</label>
+            <select id="days">
+                <option value="">Select duration</option>
+                <option value="1">1 Day</option>
+                <option value="2">2 Days</option>
+                <option value="3">3 Days</option>
+                <option value="4">4 Days</option>
+                <option value="5">5 Days</option>
+                <option value="6">6 Days</option>
+                <option value="7">7 Days</option>
+                <option value="8">8 Days</option>
+                <option value="9">9 Days</option>
+                <option value="10">10 Days</option>
+            </select>
+
+            <button type="button" onclick="openPlanPage()">Plan My Trip</button>
+        </form>
+    </section>
+
+    <section class="trip-types">
+        <h2>Recommended Trip Types</h2>
+        <div class="trip-grid">
+            <div class="trip-card">
+                <img src="https://imgs.search.brave.com/tUfs_E46C9tdQH4p_fJI5fD8pkdQsfOROK7SgHjMK7E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jLmVr/c3RhdGljLm5ldC9k/ZXgtbWVkaWEvOTEz/L0lNRy1Xb3JsZHMt/b2YtQWR2ZW50dXJl/LURlc2t0b3AtQWN0/aXZpdHlEZXRhaWxz/LTEtMS5qcGc" alt="Adventure Trip">
+                <h3>Adventure Trip</h3>
+                <p>Explore thrilling activities like hiking, camping, and outdoor sports.</p>
+            </div>
+            <div class="trip-card">
+                <img src="https://imgs.search.brave.com/ivSjotHrwEten_8HS6Vcf92ceigzC_ofw3kj_Ixi8Xk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNi8x/MC8xOC8wOC8xMy90/cmF2ZWwtMTc0OTUw/OF82NDAuanBn" alt="Relaxation Trip">
+                <h3>Relaxation Trip</h3>
+                <p>Unwind with beach views, spa treatments, and serene vibes.</p>
+            </div>
+            <div class="trip-card">
+                <img src="https://imgs.search.brave.com/fTCnlRHyoOtZuc7lah7KU-C-YFjgifRZzintjESbMTc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dG91cnJhZGFyLmNv/bS9zMy90b3VyLzY0/NXg0MzAvMTg0NDcy/XzY0NjNkOTRkMjVl/ZjIuanBn" alt="Cultural Trip">
+                <h3>Cultural Trip</h3>
+                <p>Dive into new cultures with museums, local cuisines, and traditions.</p>
+            </div>
+            <div class="trip-card">
+                <img src="https://imgs.search.brave.com/fvaEc7y6-qpDWiO-Nd_VjzAB8vBq5YGxg9oJAQVX1PE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YWR2ZW50dXJlLWxp/ZmUuY29tLzExLzEx/Lzc2L0V1cm9wZS80/NTR4MzY0LndlYnA"  alt="Food Trip">
+                <h3>Food & Wine Trip</h3>
+                <p>Savor local flavors and enjoy wine-tasting adventures.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TravelIfy. Designed with <span>&hearts;</span>. <a href="#">Contact Us</a></p>
+    </footer>
+
+    <script>
+        function openPlanPage() {
+            const destination = document.getElementById('destination').value;
+            const days = document.getElementById('days').value;
+
+            if (destination && days) {
+                window.location.href = `plan.html?destination=${destination}&days=${days}`;
+            } else {
+                alert('Please fill in all fields!');
+            }
+        }
+    </script>
 </body>
 </html>
