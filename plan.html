@@ -7,14 +7,114 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 style="margin-left: 1%;">Travel Plan</h1>
+  <div class="navbar">
+    <h1>TravelIfy</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="aboutUs.html">About Us</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </div>
+  </div>
+<style>
+  .navbar {
+  width: 100%;
+  background-color: #4a69bd;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
 
-  <!-- Display the user's input -->
-  <p>Destination: <span id="destination"></span></p>
-  <p>Days: <span id="days"></span></p>
+.navbar h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
 
-  <!-- Display the day-wise plan -->
-  <div id="plan"></div>
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+  transition: color 0.5s;
+}
+
+.navbar a:hover {
+  color: #ffdd59;
+}
+
+.hero {
+  margin: 45px auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.form-section {
+  margin: 20px auto;
+  margin-left: 10%;
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.form-section h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.plan-section {
+  margin: 20px auto;
+  width: 80%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.plan-section h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+#plan {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+</style>
+  <section class="hero">
+    <h1>Your Travel Plan</h1>
+    <p>Explore the world, one day at a time.</p>
+  </section>
+
+  <section class="form-section">
+    
+    <h2><p>Destination: <span id="destination"></span></p></h2>
+    <p style="font-weight: bold ;color: #4a69bd;">Number of Days: <span id="days"></span></p>
+  </section>
+
+  <section class="plan-section">
+    <h2>Your Daily Plan</h2>
+    <div id="plan"></div>
+  </section>
 
   <script>
     // Get the URL parameters
@@ -31,8 +131,9 @@
     // Create a day-wise plan based on the user's input
     var plan = "";
     for (var i = 1; i <= days; i++) {
-      plan += "<h2>Day " + i + "</h2>";
-      plan += "<p>TODO: Add plan for day " + i + "</p>";
+      plan += `<h3>Day ${i}</h3>`;
+      plan += `<p>Discription: Add plan for day ${i}</p>`;
+      plan += `<p>Activities: Add activities for day ${i}</p>`;
     }
 
     // Display the day-wise plan
