@@ -139,7 +139,7 @@ body {
 }
 
 .trip-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-18px);
 }
 
 .trip-card img {
