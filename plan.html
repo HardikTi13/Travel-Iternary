@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Plan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 style="margin-left: 1%;">Travel Plan</h1>
+
+  <!-- Display the user's input -->
+  <p>Destination: <span id="destination"></span></p>
+  <p>Days: <span id="days"></span></p>
+
+  <!-- Display the day-wise plan -->
+  <div id="plan"></div>
+
+  <script>
+    // Get the URL parameters
+    var urlParams = new URLSearchParams(window.location.search);
+
+    // Get the user's input from the URL parameters
+    var days = urlParams.get("days");
+    var destination = urlParams.get("destination");
+
+    // Display the user's input
+    document.getElementById("destination").innerHTML = destination;
+    document.getElementById("days").innerHTML = days;
+
+    // Create a day-wise plan based on the user's input
+    var plan = "";
+    for (var i = 1; i <= days; i++) {
+      plan += "<h2>Day " + i + "</h2>";
+      plan += "<p>TODO: Add plan for day " + i + "</p>";
+    }
+
+    // Display the day-wise plan
+    document.getElementById("plan").innerHTML = plan;
+  </script>
+</body>
+</html>
