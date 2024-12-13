@@ -117,18 +117,18 @@ h3 {
   </section>
 
   <script>
-    // Get the URL parameters
+    
     var urlParams = new URLSearchParams(window.location.search);
 
-    // Get the user's input from the URL parameters
+    
     var days = urlParams.get("days");
     var destination = urlParams.get("destination");
 
-    // Display the user's input
+  
     document.getElementById("destination").innerHTML = destination;
     document.getElementById("days").innerHTML = days;
 
-    // Create a day-wise plan based on the user's input
+    
     var plan = "";
     for (var i = 1; i <= days; i++) {
       plan += `<h3>Day ${i}</h3>`;
@@ -136,8 +136,8 @@ h3 {
       plan += `<p>Activities: Add activities for day ${i}</p>`;
     }
 
-    // Display the day-wise plan
-    document.getElementById("plan").innerHTML = plan;
+   
+     document.getElementById("plan").innerHTML = plan;
   </script>
 </body>
 </html>
