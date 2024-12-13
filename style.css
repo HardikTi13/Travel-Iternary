@@ -70,7 +70,7 @@ body {
   background: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.1);
   width: 90%;
   max-width: 400px;
   margin: 20px auto;
@@ -109,7 +109,7 @@ body {
 
 /* Trip Types Section */
 .trip-types {
-  margin: 30px auto;
+  margin: 45px auto;
   text-align: center;
 }
 
@@ -130,7 +130,7 @@ body {
   width: 250px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease;
 }
