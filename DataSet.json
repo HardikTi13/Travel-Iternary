@@ -17,8 +17,25 @@
           "Day 2: Humayun's Tomb, Lotus Temple, Qutub Minar, Hauz Khas Village, Dilli Haat, Akshardham Temple",
           "Day 3: National Museum, Gurudwara Bangla Sahib, Lodhi Gardens, Khan Market, Kingdom of Dreams, DLF Cyber Hub"
         ]
+      },
+     {
+        "city": "Jammu",
+        "introduction": "Jammu, often referred to as the 'City of Temples,' is the winter capital of the Union Territory of Jammu and Kashmir in India. Known for its ancient temples, picturesque landscapes, and rich cultural heritage, Jammu offers a serene and spiritual experience. The city serves as the gateway to the Kashmir Valley and is renowned for the Vaishno Devi shrine, attracting pilgrims from all over the world.",
+        "days": [
+          "Day 1: Raghunath Temple, Ranbireshwar Temple, Mubarak Mandi Palace, Dogra Art Museum, Bagh-e-Bahu, Peer Kho Cave Temple",
+          "Day 2: Vaishno Devi, Akhnoor Fort, Manda Zoo, Local Markets, City View Point",
+          "Day 3: Amar Mahal Palace, Bahu Fort, Purmandal Temple Complex, Lunch, Surinsar Lake, Cultural Show"
+        ]
+      },
+      {
+        "city": "Agra",
+        "introduction": "Agra, located in the northern state of Uttar Pradesh, India, is a city steeped in history and romance. Known primarily for the iconic Taj Mahal, Agra is a treasure trove of Mughal architecture, including grand forts and palaces. The city offers a blend of cultural richness and historical significance, making it a must-visit destination for travelers.",
+        "days": [
+          "Day 1: Taj Mahal, Agra Fort, Mehtab Bagh",
+          "Day 2: Fatehpur Sikri, Itmad-ud-Daulah's Tomb, Kinari Bazaar",
+          "Day 3: Akbar's Tomb, Sikandra, Marble Inlay Workshops, Sadar Bazaar"
+        ]
       }
-     
     ]
   }
   
