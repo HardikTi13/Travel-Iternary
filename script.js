@@ -7,3 +7,18 @@ fetch('DataSet.json')
 
     })
     .catch(error => console.error('Error in fetching the JSON file:', error));
+    
+    // Function to open the Travel-Plan page and Loading Animation.
+    function openPlanPage() {
+        const destination = document.getElementById('destination').value;
+        const days = document.getElementById('days').value;
+      
+        if (destination && days) {
+          document.getElementById('loading-indicator').style.display = 'block';
+          setTimeout(() => {
+            window.location.href = `plan.html?destination=${destination}&days=${days}`;
+          }, 2000);
+        } else {
+          alert('Please fill in all fields!');
+        }
+      }

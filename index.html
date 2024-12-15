@@ -47,7 +47,8 @@
             </select>
 
             <button type="button" onclick="openPlanPage()">Plan My Trip</button>
-        </form>
+            <div id="loading-indicator" style="display: none;">Loading...</div>
+        </form> 
     </section>
 
     <section class="trip-types">
@@ -80,17 +81,6 @@
         <p>&copy; 2024 TravelIfy. Designed with <span>&hearts;</span>. <a href="#">Contact Us</a></p>
     </footer>
 
-    <script>
-        function openPlanPage() {
-            const destination = document.getElementById('destination').value;
-            const days = document.getElementById('days').value;
-
-            if (destination && days) {
-                window.location.href = `plan.html?destination=${destination}&days=${days}`;
-            } else {
-                alert('Please fill in all fields!');
-            }
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
