@@ -4,21 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="signup-container">
-        <h4> Signup</h4>
+    <div class="navbar">
+        <h1>TravelIfy
+            <img src="https://cdn-icons-png.flaticon.com/128/1028/1028831.png"
+    alt="Itinerary Icon" class="logo-icon">
+        </h1>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="aboutUs.html">About Us</a>
+          <a href="login.html">Login</a>
+          <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+
+    <section class="hero">
+        <h1>Sign Up to Plan Your Next Adventure</h1>
+        <p>Unleash the Explorer in You.</p>
+    </section>
+
+    <section class="form-section">
         <form id="signupForm">
-            <label for="username">Username:</label> 
-            <input type="text" id="username" required> 
-            <label for="password">Password:</label> 
-            <input type="password" id="password" required> 
-            <label for="confirmPassword">Confirm Password:</label> <input type="password" id="confirmPassword" required> <button type="submit">Signup</button> 
-           </form> 
-           <p>Already have an account? <a href="login.html">Login here</a></p>
-       </div>
-        <script src="script.js">
-        </script> 
-        </body> 
-        </html>
-   
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
