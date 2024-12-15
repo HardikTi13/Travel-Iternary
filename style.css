@@ -1,4 +1,4 @@
- /* Global Styles */
+
  * {
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ body {
   color: #450fc5;
 }
 
-/* Hero Section */
+
 .hero {
   margin-top: 80px;
   text-align: center;
@@ -67,7 +67,6 @@ body {
   color: #555;
 }
 
-/* Form Section */
 .form-section {
   background: white;
   padding: 20px;
@@ -110,7 +109,7 @@ body {
   background-color: #3b528c;
 }
 
-/* Trip Types Section */
+
 .trip-types {
   margin: 45px auto;
   text-align: center;
@@ -161,7 +160,7 @@ body {
   color: #555;
 }
 
-/* Footer */
+
 footer {
   margin-top: auto;
   padding: 10px 20px;
@@ -199,3 +198,137 @@ footer a:hover {
   color: #4a69bd;
 }
 
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-container h4 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #4a69bd;
+}
+
+.login-container label {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a69bd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.login-container button:hover {
+  background-color: #3b528c;
+}
+
+.login-container p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.login-container a {
+  color: #4a69bd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+
+.signup-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signup-container h4 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #4a69bd;
+}
+
+.signup-container label {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.signup-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a69bd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.signup-container button:hover {
+  background-color: #3b528c;
+}
+
+.signup-container p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+.signup-container a {
+  color: #4a69bd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-container a:hover {
+  text-decoration: underline;
+}
