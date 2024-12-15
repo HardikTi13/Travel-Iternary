@@ -1,25 +1,44 @@
 {
     "cityItineraries": [
-      {
-        "city": "Mumbai",
-        "introduction": "Mumbai, also known as Bombay, is the capital city of Maharashtra and the financial, commercial, and entertainment hub of India. Known as the 'City of Dreams,' Mumbai is famous for its bustling streets, diverse culture, and iconic landmarks like the Gateway of India and Marine Drive. The city is also home to Bollywood, the heart of India's film industry. With its vibrant nightlife, historic architecture, and scenic coastal views, Mumbai offers a unique blend of tradition and modernity.",
-        "days": [
-          "Day 1: Gateway of India, Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus, Crawford Market, Marine Drive",
-          "Day 2: Siddhivinayak Temple, Haji Ali Dargah, Colaba Causeway, Prince of Wales Museum, Bandra-Worli Sea Link, Juhu Beach",
-          "Day 3: Sanjay Gandhi National Park, Film City Tour, High Street Phoenix, Dhobi Ghat, Kamala Mills"
-        ]
-      },
-      {
-        "city": "Delhi",
-        "introduction": "Delhi, the capital city of India, is a vibrant metropolis that seamlessly blends its rich historical past with modern urban culture. Known for its magnificent Mughal architecture, bustling bazaars, and diverse cuisine, Delhi offers a unique experience with its iconic landmarks like the Red Fort, India Gate, and Qutub Minar. The city is a cultural hub, reflecting the true spirit of India with its festivals, arts, and traditions.",
-        "days": [
-          "Day 1: Red Fort, Jama Masjid, Chandni Chowk, Raj Ghat, India Gate, Connaught Place",
-          "Day 2: Humayun's Tomb, Lotus Temple, Qutub Minar, Hauz Khas Village, Dilli Haat, Akshardham Temple",
-          "Day 3: National Museum, Gurudwara Bangla Sahib, Lodhi Gardens, Khan Market, Kingdom of Dreams, DLF Cyber Hub"
-        ]
-      }
-     
+        {
+            "city": "Mumbai",
+            "days": [
+                "Day 1:\n 6:00 AM: Visit Gateway of India\n 9:00 AM: Explore Elephanta Caves\n 12:00 PM: Tour Chhatrapati Shivaji Maharaj Terminus\n 2:00 PM: Shop at Crawford Market\n 5:00 PM: Walk along Marine Drive",
+                "Day 2:\n 6:00 AM: Visit Siddhivinayak Temple\n 9:00 AM: Explore Haji Ali Dargah\n 11:00 AM: Shop at Colaba Causeway\n 1:00 PM: Visit Prince of Wales Museum\n 3:00 PM: Drive on Bandra-Worli Sea Link\n 5:00 PM: Relax at Juhu Beach",
+                "Day 3:\n 6:00 AM: Visit Sanjay Gandhi National Park\n 10:00 AM: Film City Tour\n 12:00 PM: Shop at High Street Phoenix\n 2:00 PM: Visit Dhobi Ghat\n 4:00 PM: Explore Kamala Mills"
+            ]
+        },
+        {
+            "city": "Delhi",
+            "days": [
+                "Day 1:\n 6:00 AM: Visit Red Fort\n 8:00 AM: Explore Jama Masjid\n 10:00 AM: Stroll through Chandni Chowk\n 12:00 PM: Visit Raj Ghat\n 2:00 PM: Stop by India Gate\n 4:00 PM: Explore Connaught Place",
+                "Day 2:\n 6:00 AM: Visit Humayun's Tomb\n 9:00 AM: Explore Lotus Temple\n 11:00 AM: Visit Qutub Minar\n 1:00 PM: Explore Hauz Khas Village\n 3:00 PM: Visit Dilli Haat\n 5:00 PM: Explore Akshardham Temple",
+                "Day 3:\n 6:00 AM: Visit National Museum\n 9:00 AM: Visit Gurudwara Bangla Sahib\n 11:00 AM: Stroll through Lodhi Gardens\n 1:00 PM: Shop at Khan Market\n 3:00 PM: Visit Kingdom of Dreams\n 5:00 PM: Explore DLF Cyber Hub"
+            ]
+        },
+        {
+            "city": "Bangalore",
+            "days": [
+                "Day 1:\n 6:00 AM: Visit Lalbagh Botanical Garden\n 9:00 AM: Explore Bangalore Palace\n 12:00 PM: Visit Cubbon Park\n 2:00 PM: Tour Visvesvaraya Industrial and Technological Museum\n 5:00 PM: Explore MG Road",
+                "Day 2:\n 6:00 AM: Visit ISKCON Temple Bangalore\n 9:00 AM: Explore Bannerghatta National Park\n 12:00 PM: Visit Tipu Sultan's Summer Palace\n 2:00 PM: Walk through Commercial Street\n 5:00 PM: Relax at Ulsoor Lake",
+                "Day 3:\n 6:00 AM: Visit Nandi Hills\n 10:00 AM: Explore Wonderla Amusement Park\n 1:00 PM: Tour Bangalore Fort\n 3:00 PM: Shop at Phoenix Marketcity\n 5:00 PM: Visit Vidhana Soudha"
+            ]
+        },
+        {
+            "city": "Lucknow",
+            "days": [
+                "Day 1:\n 6:00 AM: Visit Bara Imambara\n 9:00 AM: Explore Chota Imambara\n 12:00 PM: Walk through Hazratganj Market\n 2:00 PM: Tour Rumi Darwaza\n 5:00 PM: Visit British Residency",
+                "Day 2:\n 6:00 AM: Visit Ambedkar Memorial Park\n 9:00 AM: Explore Janeshwar Mishra Park\n 12:00 PM: Visit Lucknow Zoo\n 2:00 PM: Walk through Aminabad Market\n 5:00 PM: Explore Dilkusha Kothi",
+                "Day 3:\n 6:00 AM: Visit Dr. Ram Manohar Lohia Park\n 9:00 AM: Tour the State Museum\n 12:00 PM: Explore Sikandar Bagh\n 2:00 PM: Shop at Sahara Ganj Mall\n 5:00 PM: Visit Gomti Riverfront Park"
+            ]
+        },
+        {
+            "city": "Jammu",
+            "days": [
+                "Day 1:\n 6:00 AM: Visit Vaishno Devi Temple\n 9:00 AM: Explore Raghunath Temple\n 12:00 PM: Visit Bahu Fort\n 2:00 PM: Walk through Raghunath Bazaar\n 5:00 PM: Explore Amar Mahal Museum",
+                "Day 2:\n 6:00 AM: Visit Bagh-e-Bahu\n 9:00 AM: Explore Mubarak Mandi Palace\n 12:00 PM: Visit Peer Kho Cave Temple\n 2:00 PM: Tour the Dogra Art Museum\n 5:00 PM: Relax at Mansar Lake",
+                "Day 3:\n 6:00 AM: Visit Surinsar Lake\n 9:00 AM: Explore Nandini Wildlife Sanctuary\n 12:00 PM: Tour Ranbireshwar Temple\n 2:00 PM: Visit Manda Zoo\n 5:00 PM: Explore Akhnoor Fort"
+            ]
+        }
     ]
-  }
-  
-  
+}
