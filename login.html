@@ -7,8 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h4> Login</h4>
+    <div class="login-container">
+        <h4>Login</h4> 
+        <form id="loginForm"> 
+        <label for="username">Username:</label> 
+        <input type="text" id="username" required> 
+        <label for="password">Password:</label> 
+        <input type="password" id="password" required> 
+        <button type="submit">Login</button> 
+        </form> 
+        <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
