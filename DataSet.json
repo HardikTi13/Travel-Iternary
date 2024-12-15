@@ -40,5 +40,23 @@
                 "Day 3:\n 6:00 AM: Visit Surinsar Lake\n 9:00 AM: Explore Nandini Wildlife Sanctuary\n 12:00 PM: Tour Ranbireshwar Temple\n 2:00 PM: Visit Manda Zoo\n 5:00 PM: Explore Akhnoor Fort"
             ]
         }
+        ,
+        {
+    "city": "Varanasi",
+    "days": [
+        "Day 1:\n 6:00 AM: Visit Kashi Vishwanath Temple\n 9:00 AM: Explore Dashashwamedh Ghat\n 12:00 PM: Visit Sarnath\n 2:00 PM: Walk through the narrow lanes of Varanasi\n 5:00 PM: Attend the Ganga Aarti at Assi Ghat",
+        "Day 2:\n 6:00 AM: Visit Tulsi Manas Temple\n 9:00 AM: Explore Bharat Mata Temple\n 12:00 PM: Visit Ramnagar Fort\n 2:00 PM: Tour the Banaras Hindu University campus\n 5:00 PM: Relax at the Ghats",
+        "Day 3:\n 6:00 AM: Visit Durga Temple\n 9:00 AM: Explore the Varanasi Silk Market\n 12:00 PM: Tour the Archaeological Museum\n 2:00 PM: Visit the Alamgir Mosque\n 5:00 PM: Enjoy a boat ride on the Ganges River"
+    ]
+},
+        {
+    "city": "Jaisalmer",
+    "days": [
+        "Day 1:\n 6:00 AM: Visit Jaisalmer Fort\n 9:00 AM: Explore Patwon Ki Haveli\n 12:00 PM: Visit Salim Singh Ki Haveli\n 2:00 PM: Walk through the local markets\n 5:00 PM: Enjoy a camel ride at Sam Sand Dunes",
+        "Day 2:\n 6:00 AM: Visit Gadisar Lake\n 9:00 AM: Explore Bada Bagh\n 12:00 PM: Visit Nathmal Ki Haveli\n 2:00 PM: Tour the Desert Culture Centre and Museum\n 5:00 PM: Relax at the Thar Heritage Museum",
+        "Day 3:\n 6:00 AM: Visit Kuldhara Village\n 9:00 AM: Explore the Jain Temples\n 12:00 PM: Tour the Jaisalmer War Museum\n 2:00 PM: Visit the Akal Wood Fossil Park\n 5:00 PM: Enjoy a sunset at Vyas Chhatri"
+    ]
+}
+
     ]
 }
