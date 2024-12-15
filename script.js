@@ -8,7 +8,7 @@ fetch('DataSet.json')
     })
     .catch(error => console.error('Error in fetching the JSON file:', error));
     
-    // Function to open the Travel-Plan page and Loading Animation.
+   
     function openPlanPage() {
         const destination = document.getElementById('destination').value;
         const days = document.getElementById('days').value;
