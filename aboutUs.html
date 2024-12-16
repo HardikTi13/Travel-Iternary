@@ -55,5 +55,14 @@
             If you have any questions or need assistance, feel free to <a href="contact.html">Contact Us</a>.
         </p>
     </div>
+    <script>
+        const video = document.getElementById('background-video');
+        video.addEventListener('mouseover', () => {
+        video.play();
+        });
+        video.addEventListener('mouseout', () => {
+        video.pause();
+        });
+    </script>
 </body>
 </html>
