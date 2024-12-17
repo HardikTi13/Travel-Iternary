@@ -16,99 +16,17 @@
       <a href="signup.html">Sign Up</a>
     </div>
   </div>
-<style>
-  .navbar {
-  width: 100%;
-  background-color: #4a69bd;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 30px;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-}
 
-.navbar h1 {
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 1rem;
-  transition: color 0.5s;
-}
-
-.navbar a:hover {
-  color: #ffdd59;
-}
-
-.hero {
-  margin: 45px auto;
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-.form-section {
-  margin: 20px auto;
-  margin-left: 10%;
-  width: 80%;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border: 1px solid #ddd;
-}
-
-.form-section h2 {
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-
-.plan-section {
-  margin: 20px auto;
-  width: 80%;
-  background-color: #f0f0f0;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-}
-
-.plan-section h2 {
-  font-size: 1.5rem;
-  margin-top: 0;
-}
-
-#plan {
-  margin-top: 20px;
-}
-
-h3 {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-</style>
   <section class="hero">
     <h1>Your Travel Plan</h1>
     <p>Unleash the Explorer in You.</p>
   </section>
 
   <section class="form-section">
-    
-    <h2><p>Destination: <span id="destination"></span></p></h2>
-    <p style="font-weight: bold ;color: #4a69bd;">Number of Days: <span id="days"></span></p>
+    <h2>
+      <p>Destination: <span id="destination"></span></p>
+    </h2>
+    <p style="font-weight: bold; color: #4a69bd;">Number of Days: <span id="days"></span></p>
   </section>
 
   <section class="plan-section">
@@ -116,28 +34,47 @@ h3 {
     <div id="plan"></div>
   </section>
 
+  <footer style="text-align: center; margin-top: 20px; background-color: #4a69bd; color: white; padding: 10px;">
+    <p>© 2024 TravelIfy. All rights reserved.</p>
+  </footer>
+
   <script>
-    
-    var urlParams = new URLSearchParams(window.location.search);
+    document.addEventListener('DOMContentLoaded', () => {
+      // Extract URL parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const days = parseInt(urlParams.get("days"));
+      const destination = urlParams.get("destination");
 
-    
-    var days = urlParams.get("days");
-    var destination = urlParams.get("destination");
+      // Display the destination and number of days
+      document.getElementById("destination").innerHTML = destination || "Unknown";
+      document.getElementById("days").innerHTML = days || "0";
 
-  
-    document.getElementById("destination").innerHTML = destination;
-    document.getElementById("days").innerHTML = days;
+      // Fetch data from JSON file
+      fetch('DataSet.json')
+        .then(response => response.json())
+        .then(data => {
+          const cityData = data.cityItineraries.find(itinerary => itinerary.city === destination);
 
-    
-    var plan = "";
-    for (var i = 1; i <= days; i++) {
-      plan += `<h3>Day ${i}</h3>`;
-      plan += `<p>Discription: Add plan for day ${i}</p>`;
-      plan += `<p>Activities: Add activities for day ${i}</p>`;
-    }
-
-   
-     document.getElementById("plan").innerHTML = plan;
+          if (cityData) {
+            // Generate the daily plan based on fetched data
+            let plan = "";
+            for (let i = 0; i < Math.min(days, cityData.days.length); i++) {
+              plan += `<h3><strong>Day ${i + 1}</strong></h3><ul>`;
+              cityData.days[i].times.forEach(event => {
+                plan += `<li><strong>${event.name}:</strong> ${event.description}</li>`;
+              });
+              plan += `</ul>`;
+            }
+            document.getElementById("plan").innerHTML = plan;
+          } else {
+            document.getElementById("plan").textContent = 'No data available for the selected city.';
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching the data:', error);
+          document.getElementById("plan").textContent = 'An error occurred while fetching the data.';
+        });
+    });
   </script>
 </body>
 </html>
