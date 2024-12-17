@@ -1,93 +1,353 @@
 {
   "cityItineraries": [
     {
-      "city": "Mumbai",
-      "days": [
-        "Day 1:\n 6:00 AM: Visit Gateway of India - A historic monument built during the 20th century, marking the entrance to India and offering great views of the Arabian Sea.\n 9:00 AM: Explore Elephanta Caves - An island with ancient rock-cut temples and sculptures dedicated to Hindu gods, particularly Lord Shiva.\n 12:00 PM: Tour Chhatrapati Shivaji Maharaj Terminus - A UNESCO World Heritage Site, this Victorian Gothic-style railway station is one of Mumbai's most iconic landmarks.\n 2:00 PM: Shop at Crawford Market - A bustling market offering everything from fresh produce to exotic goods, known for its vibrant atmosphere.\n 5:00 PM: Walk along Marine Drive - A beautiful coastal promenade offering stunning views of the Arabian Sea, especially at sunset.",
-        "Day 2:\n 6:00 AM: Visit Siddhivinayak Temple - A famous Hindu temple dedicated to Lord Ganesha, known for its religious significance and ornate architecture.\n 9:00 AM: Explore Haji Ali Dargah - A mosque and tomb located on an islet, offering stunning views of the sea and a peaceful atmosphere.\n 11:00 AM: Shop at Colaba Causeway - A vibrant shopping street offering a wide range of items from streetwear to jewelry, perfect for souvenirs.\n 1:00 PM: Visit Prince of Wales Museum - A museum showcasing India's history, culture, and art with an impressive collection of artifacts.\n 3:00 PM: Drive on Bandra-Worli Sea Link - A modern architectural marvel, this bridge offers a scenic drive with spectacular views of the Mumbai skyline.\n 5:00 PM: Relax at Juhu Beach - A popular beach in Mumbai, perfect for a leisurely walk, people-watching, and enjoying snacks from local vendors.",
-        "Day 3:\n 6:00 AM: Visit Sanjay Gandhi National Park - A large national park offering nature trails, wildlife sightings, and a peaceful escape from the city hustle.\n 10:00 AM: Film City Tour - A behind-the-scenes tour of Bollywood's film studios, where you can explore movie sets and learn about filmmaking.\n 12:00 PM: Shop at High Street Phoenix - A high-end shopping mall in Mumbai offering luxury brands, gourmet restaurants, and a modern atmosphere.\n 2:00 PM: Visit Dhobi Ghat - A unique open-air laundry service, where you can see hundreds of workers washing clothes in a traditional manner.\n 4:00 PM: Explore Kamala Mills - A hip area in Lower Parel, known for trendy restaurants, cafes, and art galleries, perfect for exploring the city’s creative side."
-      ]
-    },
-    {
-      "city": "Delhi",
-      "days": [
-        "Day 1:\n 6:00 AM: Visit Red Fort - A majestic red sandstone fort, a UNESCO World Heritage Site, known for its rich Mughal architecture.\n 8:00 AM: Explore Jama Masjid - One of the largest mosques in India, with beautiful Mughal architecture.\n 10:00 AM: Stroll through Chandni Chowk - A bustling market area famous for street food and traditional shopping.\n 12:00 PM: Visit Raj Ghat - The memorial to Mahatma Gandhi, where he was cremated.\n 2:00 PM: Stop by India Gate - A war memorial dedicated to soldiers who died in World War I.\n 4:00 PM: Explore Connaught Place - A vibrant shopping and dining area in central Delhi, known for its colonial architecture.",
-        "Day 2:\n 6:00 AM: Visit Humayun's Tomb - A beautiful garden tomb, a precursor to the Taj Mahal, showcasing Mughal architecture.\n 9:00 AM: Explore Lotus Temple - A Baháʼí House of Worship known for its unique lotus-shaped architecture.\n 11:00 AM: Visit Qutub Minar - A UNESCO World Heritage Site, this towering minaret is an example of Indo-Islamic Afghan architecture.\n 1:00 PM: Explore Hauz Khas Village - A trendy area with historic monuments, cafes, and boutiques.\n 3:00 PM: Visit Dilli Haat - An open-air market showcasing crafts from all over India.\n 5:00 PM: Explore Akshardham Temple - A modern Hindu temple known for its grand architecture and cultural exhibitions.",
-        "Day 3:\n 6:00 AM: Visit National Museum - A museum that showcases India's rich history, culture, and art.\n 9:00 AM: Visit Gurudwara Bangla Sahib - A prominent Sikh temple with a peaceful atmosphere and beautiful architecture.\n 11:00 AM: Stroll through Lodhi Gardens - A serene garden with historical tombs and a popular spot for morning walks.\n 1:00 PM: Shop at Khan Market - A well-known market for books, clothes, and food.\n 3:00 PM: Visit Kingdom of Dreams - A live entertainment complex known for its Bollywood-style musicals.\n 5:00 PM: Explore DLF Cyber Hub - A modern business hub with restaurants, cafes, and entertainment options."
-      ]
-    },
-    {
-      "city": "Bangalore",
-      "days": [
-        "Day 1:\n 6:00 AM: Visit Lalbagh Botanical Garden - A beautiful garden with a wide variety of plant species, perfect for a morning stroll amidst nature.\n 9:00 AM: Explore Bangalore Palace - A majestic palace showcasing Tudor-style architecture, with opulent interiors and royal history.\n 12:00 PM: Visit Cubbon Park - A sprawling urban park offering lush greenery, walking trails, and a peaceful environment in the heart of the city.\n 2:00 PM: Tour Visvesvaraya Industrial and Technological Museum - A science and technology museum with interactive exhibits.\n 5:00 PM: Explore MG Road - A bustling shopping street with a mix of retail outlets and cafes.",
-        "Day 2:\n 6:00 AM: Visit ISKCON Temple Bangalore - A grand temple dedicated to Lord Krishna, known for its modern architecture and peaceful atmosphere.\n 9:00 AM: Explore Bannerghatta National Park - A wildlife park that includes a zoo, safari, and butterfly park.\n 12:00 PM: Visit Tipu Sultan's Summer Palace - A historic palace showcasing Indo-Islamic architecture and a glimpse of Tipu Sultan’s era.\n 2:00 PM: Walk through Commercial Street - A popular shopping street known for its variety of goods, from fashion to electronics.\n 5:00 PM: Relax at Ulsoor Lake - A serene lake offering boat rides and a relaxing environment.",
-        "Day 3:\n 6:00 AM: Visit Nandi Hills - A hill station offering stunning views of the surrounding landscape.\n 10:00 AM: Explore Wonderla Amusement Park - A popular amusement park with thrilling rides and water slides.\n 1:00 PM: Tour Bangalore Fort - A historical fort built by Kempe Gowda, the founder of Bangalore.\n 3:00 PM: Shop at Phoenix Marketcity - A high-end shopping mall offering luxury brands and entertainment options.\n 5:00 PM: Visit Vidhana Soudha - The seat of the Karnataka State Legislature, known for its grand neo-Dravidian architecture."
-      ]
-    },
-    {
       "city": "Lucknow",
+      
       "days": [
-        "Day 1:\n 6:00 AM: Visit Bara Imambara - A grand architectural monument built by Nawab Asaf-ud-Daula, featuring the famous Bhool Bhulaiyaa.\n 9:00 AM: Explore Chota Imambara - A smaller but equally beautiful monument known for its intricate design and tombs.\n 12:00 PM: Walk through Hazratganj Market - A bustling market known for shopping and local eateries.\n 2:00 PM: Tour Rumi Darwaza - An iconic gateway built in the Awadhi style.\n 5:00 PM: Visit British Residency - A historical site reflecting the British colonial era and the First War of Indian Independence.",
-        "Day 2:\n 6:00 AM: Visit Ambedkar Memorial Park - A large park dedicated to Dr. B.R. Ambedkar, with stunning statues and monuments.\n 9:00 AM: Explore Janeshwar Mishra Park - A peaceful park with lush greenery and walking trails.\n 12:00 PM: Visit Lucknow Zoo - A well-maintained zoo featuring a variety of animals and birds.\n 2:00 PM: Walk through Aminabad Market - A vibrant market known for traditional crafts, clothing, and street food.\n 5:00 PM: Explore Dilkusha Kothi - A historic building with beautiful gardens and a fascinating history.",
-        "Day 3:\n 6:00 AM: Visit Dr. Ram Manohar Lohia Park - A spacious park perfect for early morning walks and relaxation.\n 9:00 AM: Tour the State Museum - A museum showcasing the history and culture of Uttar Pradesh.\n 12:00 PM: Explore Sikandar Bagh - A beautiful garden that once housed a grand palace.\n 2:00 PM: Shop at Sahara Ganj Mall - A modern mall with a variety of shopping and dining options.\n 5:00 PM: Visit Gomti Riverfront Park - A peaceful park along the river, perfect for an evening walk."
-      ]
-    },
-    {
-      "city": "Jammu",
-      "days": [
-        "Day 1:\n 6:00 AM: Visit Vaishno Devi Temple - A sacred Hindu temple located on a mountain, dedicated to Goddess Vaishno Devi.\n 9:00 AM: Explore Raghunath Temple - A historic temple dedicated to Lord Rama.\n 12:00 PM: Visit Bahu Fort - A fort overlooking the Tawi River, with panoramic views of Jammu.\n 2:00 PM: Walk through Raghunath Bazaar - A lively market known for its traditional goods.\n 5:00 PM: Explore Amar Mahal Museum - A museum showcasing the royal history of Jammu and Kashmir.",
-        "Day 2:\n 6:00 AM: Visit Bagh-e-Bahu - A beautiful garden with fountains and lush greenery.\n 9:00 AM: Explore Mubarak Mandi Palace - A stunning palace that blends Mughal and Rajasthani architectural styles.\n 12:00 PM: Visit Peer Kho Cave Temple - An ancient temple dedicated to Lord Shiva.\n 2:00 PM: Tour the Dogra Art Museum - A museum displaying the art and culture of the Dogra region.\n 5:00 PM: Relax at Mansar Lake - A scenic lake known for its tranquility and boating opportunities.",
-        "Day 3:\n 6:00 AM: Visit Surinsar Lake - A serene lake located in a picturesque setting.\n 9:00 AM: Explore Nandini Wildlife Sanctuary - A sanctuary with diverse wildlife and lush greenery.\n 12:00 PM: Tour Ranbireshwar Temple - A famous temple dedicated to Lord Shiva.\n 2:00 PM: Visit Manda Zoo - A zoo housing various species of animals and birds.\n 5:00 PM: Explore Akhnoor Fort - A historic fort with scenic views and a fascinating history."
+        {
+          "name": "Day1", 
+          "times": [
+            {"name": "9am", "description": "Visit Bara Imambara"},
+            { "name": "11am", "description": "Explore Chota Imambara"},
+            {"name": "1pm", "description": "Lunch at a local restaurant"},
+            {"name": "3pm", "description": "Stroll through Hazratganj Market"},
+            {"name": "5pm", "description": "Visit British Residency"}
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            {"name": "9am","description": "Visit Ambedkar Memorial Park"},
+            {"name": "11am","description": "Explore Janeshwar Mishra Park"},
+            {"name": "1pm","description": "Lunch at a local restaurant"},
+            {"name": "3pm", "description": "Visit Lucknow Zoo"},
+            {"name": "5pm","description": "Walk through Aminabad Market"}
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            {"name": "9am","description": "Visit Dr. Ram Manohar Lohia Park"},
+            { "name": "11am","description": "Tour the State Museum"},            
+            { "name": "1pm","description": "Lunch and explore Sikandar Bagh"},
+            { "name": "3pm","description": "Shop at Sahara Ganj Mall"},
+            {"name": "5pm","description": "Visit Gomti Riverfront Park"}
+          ]
+        }
       ]
     },
     {
       "city": "Varanasi",
       "days": [
-        "Day 1:\n 6:00 AM: Visit Kashi Vishwanath Temple - A famous Hindu temple dedicated to Lord Shiva, known for its spiritual significance.\n 9:00 AM: Explore Dashashwamedh Ghat - A prominent ghat on the Ganges River, known for its evening Ganga Aarti.\n 12:00 PM: Visit Sarnath - A sacred Buddhist site where Lord Buddha gave his first sermon.\n 2:00 PM: Walk through the narrow lanes of Varanasi - A maze of ancient streets filled with temples and ghats.\n 5:00 PM: Attend the Ganga Aarti at Assi Ghat - A spiritual ceremony held every evening at the ghats of the Ganges River.",
-        "Day 2:\n 6:00 AM: Visit Tulsi Manas Temple - A temple dedicated to Lord Rama, built at the site where the epic Ramcharitmanas was written.\n 9:00 AM: Explore Bharat Mata Temple - A temple dedicated to Mother India, featuring a large map of India carved in marble.\n 12:00 PM: Visit Ramnagar Fort - A fort on the banks of the Ganges River, showcasing Mughal and Rajput architecture.\n 2:00 PM: Tour the Banaras Hindu University campus - One of India's oldest educational institutions, famous for its stunning architecture.\n 5:00 PM: Relax at the Ghats - Spend time at the ghats, soaking in the spiritual atmosphere of Varanasi.",
-        "Day 3:\n 6:00 AM: Visit Durga Temple - A temple dedicated to Goddess Durga, known for its intricate carvings.\n 9:00 AM: Explore the Varanasi Silk Market - A bustling market where you can shop for the city’s famous silk sarees.\n 12:00 PM: Tour the Archaeological Museum - A museum showcasing artifacts from Varanasi’s rich history.\n 2:00 PM: Visit the Alamgir Mosque - A mosque located at the Ganges River, offering beautiful views of the river.\n 5:00 PM: Enjoy a boat ride on the Ganges River - A serene boat ride along the Ganges River, watching the ghats and temples from the water."
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am","description": "Visit Kashi Vishwanath Temple"},
+            {"name": "11am","description": "Explore Sarnath" },
+            {"name": "1pm","description": "Lunch at a local restaurant"},
+            {"name": "3pm","description": "Stroll along Ghats of Varanasi"},
+            {"name": "5pm","description": "Witness Ganga Aarti at Dashashwamedh Ghat"}
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "Visit Bharat Mata Temple" },
+            {"name": "11am", "description": "Explore Ramnagar Fort" },
+            {"name": "1pm","description": "Lunch at a local restaurant" },
+            {"name": "3pm","description": "Visit Manikarnika Ghat"},
+            {"name": "5pm","description": "Relax at Assi Ghat"}
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            {"name": "9am", "description": "Visit Tulsi Manas Temple"},
+            {"name": "11am","description": "Tour Banaras Hindu University"},
+            {"name": "1pm", "description": "Lunch at a local restaurant"},
+            {"name": "3pm", "description": "Explore Bharat Kala Bhavan Museum"},
+            {"name": "5pm", "description": "Evening boat ride on the Ganges"}
+          ]
+        }
       ]
     },
     {
       "city": "Jaisalmer",
       "days": [
-        "Day 1:\n 6:00 AM: Visit Jaisalmer Fort - A stunning fort made of yellow sandstone, one of the largest fully preserved fortified cities in the world.\n 9:00 AM: Explore Patwon Ki Haveli - A beautiful collection of havelis, showcasing the unique architecture of Jaisalmer.\n 12:00 PM: Visit Salim Singh Ki Haveli - A beautiful haveli with intricate carvings and an interesting history.\n 2:00 PM: Walk through the local markets - Browse the vibrant bazaars for handicrafts, textiles, and souvenirs.\n 5:00 PM: Enjoy a camel ride at Sam Sand Dunes - A quintessential desert experience, riding camels over the golden sand dunes.",
-        "Day 2:\n 6:00 AM: Visit Gadisar Lake - A man-made reservoir offering peaceful boat rides and a scenic setting.\n 9:00 AM: Explore Bada Bagh - A collection of cenotaphs and royal tombs set against the desert backdrop.\n 12:00 PM: Visit Nathmal Ki Haveli - A haveli known for its beautiful architecture and finely detailed carvings.\n 2:00 PM: Tour the Desert Culture Centre and Museum - A museum showcasing the desert lifestyle, folk music, and traditional attire.\n 5:00 PM: Relax at the Thar Heritage Museum - A museum dedicated to preserving the cultural heritage of the Thar Desert.",
-        "Day 3:\n 6:00 AM: Visit Kuldhara Village - A historic abandoned village that offers an eerie yet fascinating atmosphere.\n 9:00 AM: Explore the Jain Temples - Beautiful temples showcasing intricate carvings and architecture.\n 12:00 PM: Tour the Jaisalmer War Museum - A museum commemorating the military history of Jaisalmer.\n 2:00 PM: Visit the Akal Wood Fossil Park - A park showcasing ancient fossilized trees.\n 5:00 PM: Enjoy a sunset at Vyas Chhatri - A beautiful location to watch the sun set over the desert."
-      ]
-    },
-      {
-      "city": "Kashmir",
-      "days": [
-        "Day 1:\n 6:00 AM: Visit Dal Lake - A famous freshwater lake known for its houseboats and shikaras (wooden boats).\n 9:00 AM: Explore Nishat Bagh - A beautiful Mughal garden offering views of Dal Lake.\n 12:00 PM: Visit Shankaracharya Temple - A historic Hindu temple offering panoramic views of Srinagar.\n 2:00 PM: Explore Mughal Road - A historic road that connects Srinagar to Poonch and Rajouri.\n 5:00 PM: Walk through the local markets in Srinagar - Shop for Pashmina shawls, saffron, and other local handicrafts.",
-        "Day 2:\n 6:00 AM: Visit Sonamarg - A scenic town known for its lush meadows and glacial views.\n 9:00 AM: Trek to Thajiwas Glacier - A popular trekking route from Sonamarg that leads to the Thajiwas Glacier.\n 12:00 PM: Visit Yusmarg - A tranquil meadow offering a peaceful retreat with scenic beauty.\n 2:00 PM: Visit the ancient Jamia Masjid - A 14th-century mosque showcasing Kashmiri architecture.\n 5:00 PM: Explore the floating market on Dal Lake - A unique market where local vendors sell goods from their boats.",
-        "Day 3:\n 6:00 AM: Visit Gulmarg - A beautiful hill station known for its skiing and winter sports.\n 9:00 AM: Ride the Gulmarg Gondola - The world’s highest cable car, offering breathtaking views of the surrounding mountains.\n 12:00 PM: Explore Pahalgam - A picturesque town located in the Anantnag district of Kashmir.\n 2:00 PM: Visit Betaab Valley - A valley surrounded by snow-capped mountains, perfect for trekking and nature walks.\n 5:00 PM: Visit the Aru Valley - Known for its alpine meadows, pristine rivers, and peaceful atmosphere."
+        {
+          "name": "Day1",
+          "times": [
+            {"name": "9am", "description": "Visit Jaisalmer Fort"},
+            {"name": "11am", "description": "Explore Patwon Ki Haveli"},
+            {"name": "1pm", "description": "Lunch at a local restaurant"},
+            {"name": "3pm", "description": "Visit Salim Singh Ki Haveli"},
+            { "name": "5pm", "description": "Sunset at Sam Sand Dunes"}
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            {"name": "9am", "description": "Visit Gadisar Lake" },
+            {"name": "11am", "description": "Explore Thar Heritage Museum"},
+            {"name": "1pm", "description": "Lunch at a local restaurant"},
+            {"name": "3pm", "description": "Visit Jain Temples"},
+            {"name": "5pm", "description": "Camel ride in the desert"}
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "Visit Bada Bagh"},
+            {"name": "11am", "description": "Explore Desert National Park"},
+            {"name": "1pm", "description": "Lunch at a local restaurant"},
+            {"name": "3pm", "description": "Tour the Kuldhara Village"},
+            {"name": "5pm", "description": "Evening stroll through local bazaars"}
+          ]
+        }
       ]
     },
     {
-      "city": "Mumbai",
+    "city": "Mumbai",
       "days": [
-        "Day 1:\n 6:00 AM: Visit Gateway of India - A historic monument built during the 20th century, marking the entrance to India and offering great views of the Arabian Sea.\n 9:00 AM: Explore Elephanta Caves - An island with ancient rock-cut temples and sculptures dedicated to Hindu gods, particularly Lord Shiva.\n 12:00 PM: Tour Chhatrapati Shivaji Maharaj Terminus - A UNESCO World Heritage Site, this Victorian Gothic-style railway station is one of Mumbai's most iconic landmarks.\n 2:00 PM: Shop at Crawford Market - A bustling market offering everything from fresh produce to exotic goods, known for its vibrant atmosphere.\n 5:00 PM: Walk along Marine Drive - A beautiful coastal promenade offering stunning views of the Arabian Sea, especially at sunset.",
-        "Day 2:\n 6:00 AM: Visit Siddhivinayak Temple - A famous Hindu temple dedicated to Lord Ganesha, known for its religious significance and ornate architecture.\n 9:00 AM: Explore Haji Ali Dargah - A mosque and tomb located on an islet, offering stunning views of the sea and a peaceful atmosphere.\n 11:00 AM: Shop at Colaba Causeway - A vibrant shopping street offering a wide range of items from streetwear to jewelry, perfect for souvenirs.\n 1:00 PM: Visit Prince of Wales Museum - A museum showcasing India's history, culture, and art with an impressive collection of artifacts.\n 3:00 PM: Drive on Bandra-Worli Sea Link - A modern architectural marvel, this bridge offers a scenic drive with spectacular views of the Mumbai skyline.\n 5:00 PM: Relax at Juhu Beach - A popular beach in Mumbai, perfect for a leisurely walk, people-watching, and enjoying snacks from local vendors.",
-        "Day 3:\n 6:00 AM: Visit Sanjay Gandhi National Park - A large national park offering nature trails, wildlife sightings, and a peaceful escape from the city hustle.\n 10:00 AM: Film City Tour - A behind-the-scenes tour of Bollywood's film studios, where you can explore movie sets and learn about filmmaking.\n 12:00 PM: Shop at High Street Phoenix - A high-end shopping mall in Mumbai offering luxury brands, gourmet restaurants, and a modern atmosphere.\n 2:00 PM: Visit Dhobi Ghat - A unique open-air laundry service, where you can see hundreds of workers washing clothes in a traditional manner.\n 4:00 PM: Explore Kamala Mills - A hip area in Lower Parel, known for trendy restaurants, cafes, and art galleries, perfect for exploring the city’s creative side."
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am", "description": "local sightseeing" },
+            { "name": "11am", "description": "breakfast" },
+            { "name": "1pm", "description": "visit Gateway of India" },
+            { "name": "3pm", "description": "Marine Drive walk" },
+            { "name": "5pm", "description": "Chowpatty Beach" }
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "visit Elephanta Caves" },
+            { "name": "11am", "description": "return from ferry" },
+            { "name": "1pm", "description": "lunch at Colaba" },
+            { "name": "3pm", "description": "Prince of Wales Museum" },
+            { "name": "5pm", "description": "evening shopping at Colaba Causeway" }
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "visit Siddhivinayak Temple" },
+            { "name": "11am", "description": "visit Haji Ali Dargah" },
+            { "name": "1pm", "description": "lunch at a local restaurant" },
+            { "name": "3pm", "description": "explore Bandra-Worli Sea Link" },
+            { "name": "5pm", "description": "evening at Juhu Beach" }
+          ]
+        }
       ]
     },
+    {
+      "city": "Kashmir",
+      "days": [
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am", "description": "visit Dal Lake" },
+            { "name": "11am", "description": "Shikara ride" },
+            { "name": "1pm", "description": "lunch at local restaurant" },
+            { "name": "3pm", "description": "visit Mughal Gardens" },
+            { "name": "5pm", "description": "evening walk by the lake" }
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "explore Gulmarg" },
+            { "name": "11am", "description": "Gondola ride" },
+            { "name": "1pm", "description": "lunch at a mountain cafe" },
+            { "name": "3pm", "description": "snow activities" },
+            { "name": "5pm", "description": "return to Srinagar" }
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "explore Pahalgam" },
+            { "name": "11am", "description": "visit Betaab Valley" },
+            { "name": "1pm", "description": "lunch at a riverside restaurant" },
+            { "name": "3pm", "description": "explore Aru Valley" },
+            { "name": "5pm", "description": "return to Srinagar" }
+          ]
+        }
+      ]
+    }, 
     {
       "city": "Bangalore",
       "days": [
-        "Day 1:\n 6:00 AM: Visit Lalbagh Botanical Garden - A beautiful garden with a wide variety of plant species, perfect for a morning stroll amidst nature.\n 9:00 AM: Explore Bangalore Palace - A majestic palace showcasing Tudor-style architecture, with opulent interiors and royal history.\n 12:00 PM: Visit Cubbon Park - A sprawling urban park offering lush greenery, walking trails, and a peaceful environment in the heart of the city.\n 2:00 PM: Tour Visvesvaraya Industrial and Technological Museum - A science and technology museum with interactive exhibits.\n 5:00 PM: Explore MG Road - A bustling shopping street with a mix of retail outlets and cafes.",
-        "Day 2:\n 6:00 AM: Visit ISKCON Temple Bangalore - A grand temple dedicated to Lord Krishna, known for its modern architecture and peaceful atmosphere.\n 9:00 AM: Explore Bannerghatta National Park - A wildlife park that includes a zoo, safari, and butterfly park.\n 12:00 PM: Visit Tipu Sultan's Summer Palace - A historic palace showcasing Indo-Islamic architecture and a glimpse of Tipu Sultan’s era.\n 2:00 PM: Walk through Commercial Street - A popular shopping street known for its variety of goods, from fashion to electronics.\n 5:00 PM: Relax at Ulsoor Lake - A serene lake offering boat rides and a relaxing environment.",
-        "Day 3:\n 6:00 AM: Visit Nandi Hills - A hill station offering stunning views of the surrounding landscape.\n 10:00 AM: Explore Wonderla Amusement Park - A popular amusement park with thrilling rides and water slides.\n 1:00 PM: Tour Bangalore Fort - A historical fort built by Kempe Gowda, the founder of Bangalore.\n 3:00 PM: Shop at Phoenix Marketcity - A high-end shopping mall offering luxury brands and entertainment options.\n 5:00 PM: Visit Vidhana Soudha - The seat of the Karnataka State Legislature, known for its grand neo-Dravidian architecture."
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am", "description": "visit Lalbagh Botanical Garden" },
+            { "name": "11am", "description": "breakfast at a local cafe" },
+            { "name": "1pm", "description": "lunch at Mavalli Tiffin Rooms (MTR)" },
+            { "name": "3pm", "description": "visit Tipu Sultan's Summer Palace" },
+            { "name": "5pm", "description": "evening at VV Puram Food Street" }
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "explore Bangalore Palace" },
+            { "name": "11am", "description": "visit St. Mary's Basilica" },
+            { "name": "1pm", "description": "lunch at a heritage restaurant" },
+            { "name": "3pm", "description": "visit Cubbon Park" },
+            { "name": "5pm", "description": "explore Commercial Street for shopping" }
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "visit ISKCON Temple" },
+            { "name": "11am", "description": "explore Bannerghatta National Park" },
+            { "name": "1pm", "description": "lunch at a jungle lodge" },
+            { "name": "3pm", "description": "visit Innovative Film City" },
+            { "name": "5pm", "description": "return to city for dinner" }
+          ]
+        }
       ]
     },
     {
       "city": "Goa",
       "days": [
-        "Day 1:\n 6:00 AM: Visit Anjuna Beach - A popular beach known for its vibrant atmosphere and parties.\n 9:00 AM: Explore Old Goa - A UNESCO World Heritage Site, known for its Portuguese-era churches and cathedrals.\n 12:00 PM: Visit Basilica of Bom Jesus - A stunning church housing the remains of St. Francis Xavier.\n 2:00 PM: Walk through Fontainhas - The Latin Quarter in Panjim, with colorful houses and narrow streets.\n 5:00 PM: Relax at Baga Beach - A lively beach known for water sports, sunbathing, and nightlife.",
-        "Day 2:\n 6:00 AM: Visit Dudhsagar Falls - A beautiful waterfall located on the border of Goa and Karnataka.\n 9:00 AM: Explore Calangute Beach - One of the largest and most popular beaches in Goa.\n 12:00 PM: Visit Chapora Fort - A fort with scenic views, famous for its appearance in the Bollywood film *Dil Chahta Hai*.\n 2:00 PM: Take a boat ride on the Mandovi River - A serene boat ride offering views of the Goan landscape.\n 5:00 PM: Visit the Salim Ali Bird Sanctuary - A peaceful sanctuary known for birdwatching and nature walks.",
-        "Day 3:\n 6:00 AM: Visit Tito's Lane - A lively street in Baga known for nightlife, restaurants, and clubs.\n 9:00 AM: Explore Mapusa Market - A traditional market known for spices, souvenirs, and fresh produce.\n 12:00 PM: Visit the Cabo de Rama Fort - A historic fort offering panoramic views of the Arabian Sea.\n 2:00 PM: Relax at Palolem Beach - A tranquil beach known for its laid-back atmosphere.\n 5:00 PM: Shop at the Goa Street Market - A vibrant market with a variety of goods from clothes to handmade jewelry."
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am", "description": "visit Calangute Beach" },
+            { "name": "11am", "description": "explore Fort Aguada" },
+            { "name": "1pm", "description": "lunch at a beach shack" },
+            { "name": "3pm", "description": "visit Baga Beach" },
+            { "name": "5pm", "description": "sunset at Anjuna Beach" }
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "visit Old Goa churches" },
+            { "name": "11am", "description": "explore Basilica of Bom Jesus" },
+            { "name": "1pm", "description": "lunch at a heritage restaurant" },
+            { "name": "3pm", "description": "visit Spice Plantation" },
+            { "name": "5pm", "description": "evening cruise on Mandovi River" }
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "dolphin watching tour" },
+            { "name": "11am", "description": "snorkeling at Grande Island" },
+            { "name": "1pm", "description": "lunch at a seafood restaurant" },
+            { "name": "3pm", "description": "relax at Vagator Beach" },
+            { "name": "5pm", "description": "evening at Chapora Fort" }
+          ]
+        }
+      ]
+    },{
+      "city": "Assam",
+      "days": [
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am", "description": "visit Kamakhya Temple" },
+            { "name": "11am", "description": "explore Assam State Museum" },
+            { "name": "1pm", "description": "lunch at a traditional Assamese restaurant" },
+            { "name": "3pm", "description": "visit Umananda Temple" },
+            { "name": "5pm", "description": "evening walk along Brahmaputra River" }
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "explore Kaziranga National Park" },
+            { "name": "11am", "description": "jeep safari" },
+            { "name": "1pm", "description": "lunch at a resort" },
+            { "name": "3pm", "description": "nature trails" },
+            { "name": "5pm", "description": "return to Guwahati" }
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "visit Sivasagar monuments" },
+            { "name": "11am", "description": "explore Rang Ghar" },
+            { "name": "1pm", "description": "lunch at a local eatery" },
+            { "name": "3pm", "description": "visit Talatal Ghar" },
+            { "name": "5pm", "description": "return journey to Guwahati" }
+          ]
+        }
+      ]
+    }, {
+      "city": "Lakshadweep",
+      "days": [
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am", "description": "arrival at Agatti Island" },
+            { "name": "11am", "description": "explore Agatti Lagoon" },
+            { "name": "1pm", "description": "lunch at a seaside cafe" },
+            { "name": "3pm", "description": "snorkeling adventure" },
+            { "name": "5pm", "description": "relax by the beach" }
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "visit Bangaram Island" },
+            { "name": "11am", "description": "scuba diving" },
+            { "name": "1pm", "description": "picnic lunch" },
+            { "name": "3pm", "description": "explore local marine life" },
+            { "name": "5pm", "description": "sunset at the island" }
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "boat trip to Kalpeni Island" },
+            { "name": "11am", "description": "kayaking" },
+            { "name": "1pm", "description": "lunch at the island" },
+            { "name": "3pm", "description": "explore coral reefs" },
+            { "name": "5pm", "description": "return to Agatti Island" }
+          ]
+        }
+      ]
+    }, {
+      "city": "West Bengal",
+      "days": [
+        {
+          "name": "Day1",
+          "times": [
+            { "name": "9am", "description": "visit Victoria Memorial" },
+            { "name": "11am", "description": "explore Indian Museum" },
+            { "name": "1pm", "description": "lunch at Park Street" },
+            { "name": "3pm", "description": "walk along the Hooghly River" },
+            { "name": "5pm", "description": "evening at Prinsep Ghat" }
+          ]
+        },
+        {
+          "name": "Day2",
+          "times": [
+            { "name": "9am", "description": "visit Dakshineswar Kali Temple" },
+            { "name": "11am", "description": "explore Belur Math" },
+            { "name": "1pm", "description": "lunch at a Bengali restaurant" },
+            { "name": "3pm", "description": "explore Eco Park" },
+            { "name": "5pm", "description": "evening boat ride on Hooghly" }
+          ]
+        },
+        {
+          "name": "Day3",
+          "times": [
+            { "name": "9am", "description": "day trip to Sundarbans" },
+            { "name": "11am", "description": "explore mangrove forest" },
+            { "name": "1pm", "description": "lunch at a forest lodge" },
+            { "name": "3pm", "description": "wildlife safari" },
+            { "name": "5pm", "description": "return to Kolkata" }
+          ]
+        }
       ]
     }
-    
   ]
 }
+  
