@@ -1,40 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Travel Plan</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Plan</title>
+  <link rel="stylesheet" href="plan.css">
 </head>
 <body>
-<div class="navbar">
-<h1>TravelIfy</h1>
-<div>
-<a href="index.html">Home</a>
-<a href="aboutUs.html">About Us</a>
-<a href="login.html">Login</a>
-<a href="signup.html">Sign Up</a>
-</div>
-</div>
-<section class="hero">
-<h1>Your Travel Plan</h1>
-<p>Unleash the Explorer in You.</p>
-</section>
-<section class="form-section">
-<h2><p>Destination: <span id="destination"></span></p></h2>
-<p style="font-weight: bold; color: #4a69bd;">Number of Days: <span id="days"></span></p>
-<label for="start-date">Select Start Date:</label>
-<input type="date" id="start-date">
-<button onclick="generatePlan()">Generate Plan</button>
-</section>
-<section class="plan-section">
-<div id="plan"></div>
-</section>
-<footer>
-<p>&copy; 2024 TravelIfy. Designed with <span>&hearts;</span>. <a href="aboutUs.html">Contact Us</a></p>
-</footer>
-<script src="script.js">
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>TravelIfy</h1>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="aboutUs.html">About Us</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+    </div>
+  </div>
 
-</script>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Your Travel Plan</h1>
+    <p>Unleash the Explorer in You.</p>
+  </section>
+
+  <section class="form-section">
+    <h2>Destination: <span id="destination"></span></h2>
+    <p>Number of Days: <span id="days"></span></p>
+  </section>
+
+  <!-- Plan Section -->
+  <section class="plan-section">
+    <h2>Your Daily Plan</h2>
+    <div id="plan"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 TravelIfy. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const days = parseInt(urlParams.get("days"));
+      const destination = urlParams.get("destination");
+
+      document.getElementById("destination").innerHTML = destination || "Unknown";
+      document.getElementById("days").innerHTML = days || "0";
+
+      fetch('DataSet.json')
+        .then(response => response.json())
+        .then(data => {
+          const cityData = data.cityItineraries.find(itinerary => itinerary.city === destination);
+
+          if (cityData) {
+            let plan = "";
+            for (let i = 0; i < Math.min(days, cityData.days.length); i++) {
+              plan += `<h3><strong>Day ${i + 1}</strong></h3><ul>`;
+              cityData.days[i].times.forEach(event => {
+                plan += `<li><strong>${event.name}:</strong> ${event.description}</li>`;
+              });
+              plan += `</ul>`;
+            }
+            document.getElementById("plan").innerHTML = plan;
+          } else {
+            document.getElementById("plan").textContent = 'No data available for the selected city.';
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching the data:', error);
+          document.getElementById("plan").textContent = 'An error occurred while fetching the data.';
+        });
+    });
+  </script>
 </body>
 </html>
