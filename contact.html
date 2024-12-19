@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="contact-style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact-style.css">
 </head>
 <body>
-    <div class="contact-container">
-        <h2>Contact Us</h2>
-        <p>Have questions or need assistance? We'd love to hear from you! Reach out to us using the form below.</p>
-        <form action="#" method="POST" class="contact-form">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <header class="navbar">
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
 
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  <section class="hero">
+    <h1>We'd Love to Hear From You</h1>
+    <p>Feel free to reach out to us with any questions or feedback!</p>
+  </section>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+  <section class="form-section">
+    <form action="#" method="post" class="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-            <button type="submit">Send Message</button>
-        </form>
-        <p class="info">You can also reach us at <a href="mailto:contact@travelify.com">contact@travelify.com</a> or call us at +1-234-567-890.</p>
-    </div>
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Your Website. All Rights Reserved. | <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
 </body>
 </html>
