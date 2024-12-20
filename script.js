@@ -37,3 +37,21 @@ fetch('DataSet.json')
             console.log('Stored Password:', localStorage.getItem('password'));
 
             alert('Login information saved to local storage!');
+        });
+        document.getElementById('signupForm').addEventListener('submit', function(event) {
+          event.preventDefault();
+          const username = document.getElementById('username').value;
+          const password = document.getElementById('password').value;
+          const confirmPassword = document.getElementById('confirmPassword').value;
+
+
+          if (password !== confirmPassword) {
+              alert('Passwords do not match!');
+              return;
+          }
+
+          localStorage.setItem('username', username);
+          localStorage.setItem('password', password);
+
+          alert('Signup information saved to local storage!');
+      });
