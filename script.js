@@ -22,3 +22,18 @@ fetch('DataSet.json')
           alert('Please fill in all fields!');
         }
       }
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+
+            console.log('Username:', username);
+            console.log('Password:', password);
+
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+            console.log('Stored Username:', localStorage.getItem('username'));
+            console.log('Stored Password:', localStorage.getItem('password'));
+
+            alert('Login information saved to local storage!');
