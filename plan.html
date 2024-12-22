@@ -25,7 +25,24 @@
 
   <section class="form-section">
     <h2>Destination: <span id="destination"></span></h2>
+    
     <p>Number of Days: <span id="days"></span></p>
+
+  </section>
+ 
+  <section class="plan-section">
+    <h2>Introduction</h2>
+    <div id="city-discription"></div>
+  </section>
+
+  <section class="plan-section">
+    <h2>Accommodations</h2>
+    <div id="accommodations"></div>
+  </section>
+
+  <section class="plan-section">
+    <h2>Transportation</h2>
+    <div id="Transportation"></div>
   </section>
 
   <!-- Plan Section -->
@@ -52,9 +69,31 @@
           const cityData = data.cityItineraries.find(itinerary => itinerary.city === destination);
 
           if (cityData) {
+            document.getElementById("city-discription").textContent = cityData.description;
+
+            let accommodationsHTML = '';
+            cityData.accommodations.forEach(accommodation => {
+            accommodationsHTML += `<h3>${accommodation.type}</h3>
+                                   <p><strong>${accommodation.name}</strong>: ${accommodation.description} (Price: ${accommodation.priceRange})</p>`;
+          });
+          document.getElementById("accommodations").innerHTML = accommodationsHTML;
+
+
+          let transportationHTML = "";
+          cityData.transportation.forEach(transport => {
+            transportationHTML += `<h3>${transport.mode}</h3>
+                                   <p>${transport.description} (Cost: ${transport.cost})</p>`;
+          });
+          document.getElementById("Transportation").innerHTML = transportationHTML || "No transportation details available.";
+
+
+
+
             let plan = "";
+            
             for (let i = 0; i < Math.min(days, cityData.days.length); i++) {
               plan += `<h3><strong>Day ${i + 1}</strong></h3><ul>`;
+                
               cityData.days[i].times.forEach(event => {
                 plan += `<li><strong>${event.name}:</strong> ${event.description}</li>`;
               });
