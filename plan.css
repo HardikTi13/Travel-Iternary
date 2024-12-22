@@ -98,7 +98,14 @@ body {
   .plan-section li strong {
     color: #4a69bd;
   }
-  
+ .plan-section p{
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #e8f0fe;
+  border-radius: 5px;
+  color: #333;
+  }
+
   /* Footer */
   footer {
     text-align: center;
