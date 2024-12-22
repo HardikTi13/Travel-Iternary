@@ -2,7 +2,50 @@
   "cityItineraries": [
     {
       "city": "Lucknow",
-      
+      "description":"Lucknow, the capital of Uttar Pradesh, is known for its rich cultural heritage, exquisite cuisine, and impressive Nawabi-era architecture. The city seamlessly blends old-world charm with modern development, famous for its tehzeeb (etiquette), kebabs, and historical monuments.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "Taj Mahal Hotel",
+          "description": "5-star hotel with traditional architecture and modern amenities",
+          "priceRange": "₹16,000-24,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Clarks Avadh",
+          "description": "4-star hotel in central location with comfortable rooms",
+          "priceRange": "₹8,000-12,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Hotel Krishna Palace",
+          "description": "Clean, basic accommodations near major attractions",
+          "priceRange": "₹3,200-4,800 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Auto Rickshaw",
+          "description": "Convenient for short distances within city",
+          "cost": "₹50-200 per trip"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Comfortable for longer trips and sightseeing",
+          "cost": "₹500-1500 per day"
+        },
+        {
+          "mode": "Local Bus",
+          "description": "Economical option for city travel",
+          "cost": "₹10-30 per trip"
+        },
+        {
+          "mode": "Metro",
+          "description": "Fast transit on select routes",
+          "cost": "₹20-50 per trip"
+        }
+      ],
+
       "days": [
         {
           "name": "Day1", 
@@ -38,6 +81,49 @@
     },
     {
       "city": "Varanasi",
+      "description":"Varanasi, also known as Kashi, is one of the oldest living cities in the world. Situated on the banks of the sacred Ganges River, Varanasi is a spiritual hub and a center of learning. The city is famous for its ghats, temples, and vibrant culture.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "Taj Ganges",
+          "description": "5-star hotel with river views and modern amenities",
+          "priceRange": "₹12,000-18,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Hotel Meraden Grand",
+          "description": "4-star hotel near ghats with comfortable rooms",
+          "priceRange": "₹6,000-9,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Hotel Alka",
+          "description": "Basic hotel with ghat views and clean rooms",
+          "priceRange": "₹2,500-4,000 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Auto Rickshaw",
+          "description": "Convenient for local travel around ghats",
+          "cost": "₹30-150 per trip"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Comfortable option for sightseeing",
+          "cost": "₹400-1200 per day"
+        },
+        {
+          "mode": "Cycle Rickshaw",
+          "description": "Traditional transport through narrow lanes",
+          "cost": "₹20-100 per trip"
+        },
+        {
+          "mode": "Boat",
+          "description": "River transport between ghats",
+          "cost": "₹50-200 per person"
+        }
+      ],
       "days": [
         {
           "name": "Day1",
@@ -73,6 +159,49 @@
     },
     {
       "city": "Jaisalmer",
+      "description":"Jaisalmer, the 'Golden City' of Rajasthan, is known for its majestic forts, havelis, and sand dunes. The city's golden sandstone architecture glows in the sunlight, creating a magical ambiance. Jaisalmer is a popular tourist destination offering a glimpse into the royal heritage of Rajasthan.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "Suryagarh Palace",
+          "description": "5-star heritage hotel with desert views and royal ambiance",
+          "priceRange": "₹20,000-30,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Hotel Rang Mahal",
+          "description": "4-star hotel with traditional architecture and comfortable rooms",
+          "priceRange": "₹7,000-12,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Hotel Pleasant Haveli",
+          "description": "Heritage-style budget hotel with basic amenities",
+          "priceRange": "₹2,500-4,000 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Auto Rickshaw",
+          "description": "Convenient for city travel",
+          "cost": "₹40-150 per trip"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Comfortable option for sightseeing and desert trips",
+          "cost": "₹600-1500 per day"
+        },
+        {
+          "mode": "Camel Cart",
+          "description": "Traditional transport in old city areas",
+          "cost": "₹200-500 per trip"
+        },
+        {
+          "mode": "Jeep Safari",
+          "description": "Desert exploration and dune bashing",
+          "cost": "₹1500-3000 per trip"
+        }
+      ],
       "days": [
         {
           "name": "Day1",
@@ -108,7 +237,50 @@
     },
     {
     "city": "Mumbai",
-      "days": [
+    "description":"Mumbai, the 'City of Dreams,' is a bustling metropolis known for its vibrant culture, historic landmarks, and Bollywood glamour. From iconic attractions like the Gateway of India to the bustling markets of Colaba Causeway, Mumbai offers a diverse range of experiences.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "The Taj Mahal Palace",
+          "description": "5-star iconic hotel with sea views and world-class amenities",
+          "priceRange": "₹25,000-40,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Hotel Marine Plaza",
+          "description": "4-star hotel near tourist attractions with comfortable rooms",
+          "priceRange": "₹8,000-15,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Hotel Sea Shore",
+          "description": "Clean budget hotel with basic amenities near Colaba",
+          "priceRange": "₹3,000-5,000 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Local Train",
+          "description": "Efficient public transport across the city",
+          "cost": "₹10-50 per trip"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Comfortable option for city travel",
+          "cost": "₹500-1500 per day"
+        },
+        {
+          "mode": "Auto Rickshaw",
+          "description": "Convenient for short distances",
+          "cost": "₹30-200 per trip"
+        },
+        {
+          "mode": "Bus",
+          "description": "Economical option for city travel",
+          "cost": "₹15-40 per trip"
+        }
+      ],
+    "days": [
         {
           "name": "Day1",
           "times": [
@@ -143,6 +315,49 @@
     },
     {
       "city": "Kashmir",
+      "description":"Kashmir, often referred to as 'Paradise on Earth,' is known for its breathtaking natural beauty, serene lakes, and snow-capped mountains. The region offers a perfect blend of adventure, culture, and relaxation, making it a popular tourist destination.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "The Lalit Grand Palace",
+          "description": "5-star heritage hotel with stunning lake and mountain views",
+          "priceRange": "₹22,000-35,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Hotel Paradise",
+          "description": "4-star hotel with comfortable rooms and garden views",
+          "priceRange": "₹8,000-15,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Hotel Mountain View",
+          "description": "Clean budget hotel with basic amenities near Dal Lake",
+          "priceRange": "₹3,000-5,000 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Taxi",
+          "description": "Convenient for city and hill station travel",
+          "cost": "₹800-2000 per day"
+        },
+        {
+          "mode": "Auto Rickshaw",
+          "description": "Good for short distances within Srinagar",
+          "cost": "₹50-200 per trip"
+        },
+        {
+          "mode": "Shikara",
+          "description": "Traditional boat transport on Dal Lake",
+          "cost": "₹300-800 per hour"
+        },
+        {
+          "mode": "Tourist Bus",
+          "description": "Organized tours to popular destinations",
+          "cost": "₹1000-2500 per day"
+        }
+      ],
       "days": [
         {
           "name": "Day1",
@@ -178,6 +393,49 @@
     }, 
     {
       "city": "Bangalore",
+      "description":"Bangalore, the 'Garden City of India,' is known for its pleasant climate, lush greenery, and vibrant culture. The city offers a mix of historical sites, modern attractions, and a thriving food scene, making it a popular destination for travelers.",
+    "accommodations": [
+      {
+        "type": "Luxury",
+        "name": "The Leela Palace",
+        "description": "5-star luxury hotel with world-class amenities",
+        "priceRange": "₹20,000-35,000 per night"
+      },
+      {
+        "type": "Mid-range",
+        "name": "Royal Orchid Central",
+        "description": "4-star hotel in central location with modern facilities",
+        "priceRange": "₹7,000-12,000 per night"
+      },
+      {
+        "type": "Budget",
+        "name": "Hotel Empire International",
+        "description": "Clean budget hotel with basic amenities",
+        "priceRange": "₹2,500-4,000 per night"
+      }
+    ],
+    "transportation": [
+      {
+        "mode": "Metro",
+        "description": "Fast and efficient public transport across the city",
+        "cost": "₹20-60 per trip"
+      },
+      {
+        "mode": "Auto Rickshaw",
+        "description": "Convenient for short distances",
+        "cost": "₹30-200 per trip"
+      },
+      {
+        "mode": "Taxi",
+        "description": "Comfortable option for city travel",
+        "cost": "₹500-1500 per day"
+      },
+      {
+        "mode": "Bus",
+        "description": "Economical option for city travel",
+        "cost": "₹15-40 per trip"
+      }
+    ],
       "days": [
         {
           "name": "Day1",
@@ -213,6 +471,49 @@
     },
     {
       "city": "Goa",
+      "description":"Goa, known for its stunning beaches, vibrant nightlife, and Portuguese heritage, is a popular tourist destination in India. The state offers a mix of relaxation, adventure, and culture, making it an ideal getaway for all types of travelers.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "Taj Resort & Convention Centre",
+          "description": "5-star beachfront resort with world-class amenities",
+          "priceRange": "₹18,000-30,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Resort Terra Paraiso",
+          "description": "4-star resort with pool and comfortable rooms",
+          "priceRange": "₹6,000-10,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Cuba Goa",
+          "description": "Basic hotel near beach with clean rooms",
+          "priceRange": "₹2,000-4,000 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Scooter/Bike",
+          "description": "Popular mode for exploring beaches and local areas",
+          "cost": "₹400-800 per day"
+        },
+        {
+          "mode": "Taxi",
+          "description": "Comfortable option for longer distances",
+          "cost": "₹600-1500 per day"
+        },
+        {
+          "mode": "Auto Rickshaw",
+          "description": "Convenient for short trips",
+          "cost": "₹50-200 per trip"
+        },
+        {
+          "mode": "Bus",
+          "description": "Economical option for local travel",
+          "cost": "₹20-50 per trip"
+        }
+      ],
       "days": [
         {
           "name": "Day1",
@@ -247,6 +548,49 @@
       ]
     },{
       "city": "Assam",
+      "description":"Assam, known for its tea gardens, wildlife sanctuaries, and cultural heritage, is a beautiful state in northeastern India. The region offers a mix of natural beauty, adventure, and cultural experiences, making it an ideal destination for nature lovers and history enthusiasts.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "Taj Vivanta Guwahati",
+          "description": "5-star hotel with panoramic city views and modern amenities",
+          "priceRange": "₹15,000-25,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Hotel Dynasty",
+          "description": "4-star hotel with comfortable rooms and good location",
+          "priceRange": "₹6,000-10,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Hotel Ambarish Grand Residency",
+          "description": "Clean budget hotel with basic amenities",
+          "priceRange": "₹2,500-4,000 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Taxi",
+          "description": "Comfortable option for city and park visits",
+          "cost": "₹600-1500 per day"
+        },
+        {
+          "mode": "Auto Rickshaw",
+          "description": "Convenient for short distances",
+          "cost": "₹40-200 per trip"
+        },
+        {
+          "mode": "Bus",
+          "description": "Economical option for city travel",
+          "cost": "₹20-50 per trip"
+        },
+        {
+          "mode": "Safari Jeep",
+          "description": "For wildlife sanctuary visits",
+          "cost": "₹1500-3000 per trip"
+        }
+      ],
       "days": [
         {
           "name": "Day1",
@@ -281,6 +625,49 @@
       ]
     }, {
       "city": "Lakshadweep",
+      "description":"Lakshadweep, a tropical archipelago in the Arabian Sea, is known for its pristine beaches, coral reefs, and crystal-clear waters. The islands offer a perfect escape for beach lovers, water sports enthusiasts, and nature admirers, making it an idyllic holiday destination.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "Bangaram Island Resort",
+          "description": "5-star eco-resort with beachfront villas and water sports facilities",
+          "priceRange": "₹20,000-35,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Agatti Island Beach Resort",
+          "description": "Comfortable beach resort with ocean views",
+          "priceRange": "₹8,000-15,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Coral Paradise Resort",
+          "description": "Basic accommodation with essential amenities",
+          "priceRange": "₹3,000-6,000 per night"
+        }
+      ],
+      "transportation": [
+        {
+          "mode": "Speed Boat",
+          "description": "Fast transport between islands",
+          "cost": "₹1000-2000 per trip"
+        },
+        {
+          "mode": "Ferry",
+          "description": "Regular service between major islands",
+          "cost": "₹300-600 per trip"
+        },
+        {
+          "mode": "Glass Bottom Boat",
+          "description": "For coral reef viewing",
+          "cost": "₹800-1500 per trip"
+        },
+        {
+          "mode": "Water Taxi",
+          "description": "Private boat transfers",
+          "cost": "₹1500-3000 per trip"
+        }
+      ],
       "days": [
         {
           "name": "Day1",
@@ -315,6 +702,49 @@
       ]
     }, {
       "city": "West Bengal",
+      "description":"West Bengal, located in eastern India, is known for its rich cultural heritage, historical landmarks, and natural beauty. The state offers a diverse range of experiences, from exploring the bustling city of Kolkata to relaxing on the serene beaches of Digha.",
+      "accommodations": [
+        {
+          "type": "Luxury",
+          "name": "The Oberoi Grand",
+          "description": "5-star heritage hotel with colonial architecture and luxury amenities",
+          "priceRange": "₹18,000-30,000 per night"
+        },
+        {
+          "type": "Mid-range",
+          "name": "Hyatt Regency Kolkata",
+          "description": "4-star hotel with modern amenities and comfortable rooms",
+          "priceRange": "₹8,000-15,000 per night"
+        },
+        {
+          "type": "Budget",
+          "name": "Hotel Lindsay",
+          "description": "Clean budget hotel in central location",
+          "priceRange": "₹3,000-5,000 per night"
+        }
+            ],
+      "transportation": [
+        {
+          "mode": "Metro",
+          "description": "Fast and convenient city transport",
+          "cost": "₹10-50 per trip"  
+        },
+        {
+          "mode": "Taxi",
+          "description": "Comfortable option for city travel",
+          "cost": "₹500-1500 per day"
+        },
+        {
+          "mode": "Auto Rickshaw", 
+          "description": "Convenient for short distances",
+          "cost": "₹30-200 per trip"
+        },
+        {
+          "mode": "Tram",
+          "description": "Heritage transport in Kolkata",
+          "cost": "₹5-20 per trip"
+        }
+      ],
       "days": [
         {
           "name": "Day1",
