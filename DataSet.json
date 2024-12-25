@@ -82,6 +82,7 @@
     {
       "city": "Varanasi",
       "description":"Varanasi, also known as Kashi, is one of the oldest living cities in the world. Situated on the banks of the sacred Ganges River, Varanasi is a spiritual hub and a center of learning. The city is famous for its ghats, temples, and vibrant culture.",
+     
       "accommodations": [
         {
           "type": "Luxury",
@@ -284,9 +285,9 @@
         {
           "name": "Day1",
           "times": [
-            { "name": "9am", "description": "local sightseeing" },
-            { "name": "11am", "description": "breakfast" },
-            { "name": "1pm", "description": "visit Gateway of India" },
+            { "name": "9am", "description": "Local sightseeing" },
+            { "name": "11am", "description": "Breakfast" },
+            { "name": "1pm", "description": "Visit Gateway of India" },
             { "name": "3pm", "description": "Marine Drive walk" },
             { "name": "5pm", "description": "Chowpatty Beach" }
           ]
@@ -294,21 +295,21 @@
         {
           "name": "Day2",
           "times": [
-            { "name": "9am", "description": "visit Elephanta Caves" },
-            { "name": "11am", "description": "return from ferry" },
-            { "name": "1pm", "description": "lunch at Colaba" },
+            { "name": "9am", "description": "Visit Elephanta Caves" },
+            { "name": "11am", "description": "Return from ferry" },
+            { "name": "1pm", "description": "Lunch at Colaba" },
             { "name": "3pm", "description": "Prince of Wales Museum" },
-            { "name": "5pm", "description": "evening shopping at Colaba Causeway" }
+            { "name": "5pm", "description": "Evening shopping at Colaba Causeway" }
           ]
         },
         {
           "name": "Day3",
           "times": [
-            { "name": "9am", "description": "visit Siddhivinayak Temple" },
-            { "name": "11am", "description": "visit Haji Ali Dargah" },
-            { "name": "1pm", "description": "lunch at a local restaurant" },
-            { "name": "3pm", "description": "explore Bandra-Worli Sea Link" },
-            { "name": "5pm", "description": "evening at Juhu Beach" }
+            { "name": "9am", "description": "Visit Siddhivinayak Temple" },
+            { "name": "11am", "description": "Visit Haji Ali Dargah" },
+            { "name": "1pm", "description": "Lunch at a local restaurant" },
+            { "name": "3pm", "description": "Explore Bandra-Worli Sea Link" },
+            { "name": "5pm", "description": "Evening at Juhu Beach" }
           ]
         }
       ]
@@ -362,31 +363,31 @@
         {
           "name": "Day1",
           "times": [
-            { "name": "9am", "description": "visit Dal Lake" },
+            { "name": "9am", "description": "Visit Dal Lake" },
             { "name": "11am", "description": "Shikara ride" },
-            { "name": "1pm", "description": "lunch at local restaurant" },
-            { "name": "3pm", "description": "visit Mughal Gardens" },
-            { "name": "5pm", "description": "evening walk by the lake" }
+            { "name": "1pm", "description": "Lunch at local restaurant" },
+            { "name": "3pm", "description": "Visit Mughal Gardens" },
+            { "name": "5pm", "description": "Evening walk by the lake" }
           ]
         },
         {
           "name": "Day2",
           "times": [
-            { "name": "9am", "description": "explore Gulmarg" },
+            { "name": "9am", "description": "Explore Gulmarg" },
             { "name": "11am", "description": "Gondola ride" },
-            { "name": "1pm", "description": "lunch at a mountain cafe" },
-            { "name": "3pm", "description": "snow activities" },
-            { "name": "5pm", "description": "return to Srinagar" }
+            { "name": "1pm", "description": "Lunch at a mountain cafe" },
+            { "name": "3pm", "description": "Snow activities" },
+            { "name": "5pm", "description": "Return to Srinagar" }
           ]
         },
         {
           "name": "Day3",
           "times": [
-            { "name": "9am", "description": "explore Pahalgam" },
-            { "name": "11am", "description": "visit Betaab Valley" },
-            { "name": "1pm", "description": "lunch at a riverside restaurant" },
-            { "name": "3pm", "description": "explore Aru Valley" },
-            { "name": "5pm", "description": "return to Srinagar" }
+            { "name": "9am", "description": "Explore Pahalgam" },
+            { "name": "11am", "description": "Visit Betaab Valley" },
+            { "name": "1pm", "description": "Lunch at a riverside restaurant" },
+            { "name": "3pm", "description": "Explore Aru Valley" },
+            { "name": "5pm", "description": "Return to Srinagar" }
           ]
         }
       ]
@@ -440,31 +441,31 @@
         {
           "name": "Day1",
           "times": [
-            { "name": "9am", "description": "visit Lalbagh Botanical Garden" },
-            { "name": "11am", "description": "breakfast at a local cafe" },
-            { "name": "1pm", "description": "lunch at Mavalli Tiffin Rooms (MTR)" },
-            { "name": "3pm", "description": "visit Tipu Sultan's Summer Palace" },
-            { "name": "5pm", "description": "evening at VV Puram Food Street" }
+            { "name": "9am", "description": "Visit Lalbagh Botanical Garden" },
+            { "name": "11am", "description": "Breakfast at a local cafe" },
+            { "name": "1pm", "description": "Lunch at Mavalli Tiffin Rooms (MTR)" },
+            { "name": "3pm", "description": "Visit Tipu Sultan's Summer Palace" },
+            { "name": "5pm", "description": "Evening at VV Puram Food Street" }
           ]
         },
         {
           "name": "Day2",
           "times": [
-            { "name": "9am", "description": "explore Bangalore Palace" },
-            { "name": "11am", "description": "visit St. Mary's Basilica" },
-            { "name": "1pm", "description": "lunch at a heritage restaurant" },
-            { "name": "3pm", "description": "visit Cubbon Park" },
-            { "name": "5pm", "description": "explore Commercial Street for shopping" }
+            { "name": "9am", "description": "Explore Bangalore Palace" },
+            { "name": "11am", "description": "Visit St. Mary's Basilica" },
+            { "name": "1pm", "description": "Lunch at a heritage restaurant" },
+            { "name": "3pm", "description": "Visit Cubbon Park" },
+            { "name": "5pm", "description": "Explore Commercial Street for shopping" }
           ]
         },
         {
           "name": "Day3",
           "times": [
-            { "name": "9am", "description": "visit ISKCON Temple" },
-            { "name": "11am", "description": "explore Bannerghatta National Park" },
-            { "name": "1pm", "description": "lunch at a jungle lodge" },
-            { "name": "3pm", "description": "visit Innovative Film City" },
-            { "name": "5pm", "description": "return to city for dinner" }
+            { "name": "9am", "description": "Visit ISKCON Temple" },
+            { "name": "11am", "description": "Explore Bannerghatta National Park" },
+            { "name": "1pm", "description": "Lunch at a jungle lodge" },
+            { "name": "3pm", "description": "Visit Innovative Film City" },
+            { "name": "5pm", "description": "Return to city for dinner" }
           ]
         }
       ]
@@ -518,31 +519,31 @@
         {
           "name": "Day1",
           "times": [
-            { "name": "9am", "description": "visit Calangute Beach" },
-            { "name": "11am", "description": "explore Fort Aguada" },
-            { "name": "1pm", "description": "lunch at a beach shack" },
-            { "name": "3pm", "description": "visit Baga Beach" },
-            { "name": "5pm", "description": "sunset at Anjuna Beach" }
+            { "name": "9am", "description": "Visit Calangute Beach" },
+  { "name": "11am", "description": "Explore Fort Aguada" },
+  { "name": "1pm", "description": "Lunch at a beach shack" },
+  { "name": "3pm", "description": "Visit Baga Beach" },
+  { "name": "5pm", "description": "Sunset at Anjuna Beach" }
           ]
         },
         {
           "name": "Day2",
           "times": [
-            { "name": "9am", "description": "visit Old Goa churches" },
-            { "name": "11am", "description": "explore Basilica of Bom Jesus" },
-            { "name": "1pm", "description": "lunch at a heritage restaurant" },
-            { "name": "3pm", "description": "visit Spice Plantation" },
-            { "name": "5pm", "description": "evening cruise on Mandovi River" }
+            { "name": "9am", "description": "Visit Old Goa churches" },
+            { "name": "11am", "description": "Explore Basilica of Bom Jesus" },
+            { "name": "1pm", "description": "Lunch at a heritage restaurant" },
+            { "name": "3pm", "description": "Visit Spice Plantation" },
+            { "name": "5pm", "description": "Evening cruise on Mandovi River" }
           ]
         },
         {
           "name": "Day3",
           "times": [
-            { "name": "9am", "description": "dolphin watching tour" },
-            { "name": "11am", "description": "snorkeling at Grande Island" },
-            { "name": "1pm", "description": "lunch at a seafood restaurant" },
-            { "name": "3pm", "description": "relax at Vagator Beach" },
-            { "name": "5pm", "description": "evening at Chapora Fort" }
+            { "name": "9am", "description": "Dolphin watching tour" },
+            { "name": "11am", "description": "Snorkeling at Grande Island" },
+            { "name": "1pm", "description": "Lunch at a seafood restaurant" },
+            { "name": "3pm", "description": "Relax at Vagator Beach" },
+            { "name": "5pm", "description": "Evening at Chapora Fort" }
           ]
         }
       ]
@@ -595,31 +596,32 @@
         {
           "name": "Day1",
           "times": [
-            { "name": "9am", "description": "visit Kamakhya Temple" },
-            { "name": "11am", "description": "explore Assam State Museum" },
-            { "name": "1pm", "description": "lunch at a traditional Assamese restaurant" },
-            { "name": "3pm", "description": "visit Umananda Temple" },
-            { "name": "5pm", "description": "evening walk along Brahmaputra River" }
+            { "name": "9am", "description": "Visit Kamakhya Temple" },
+  { "name": "11am", "description": "Explore Assam State Museum" },
+  { "name": "1pm", "description": "Lunch at a traditional Assamese restaurant" },
+  { "name": "3pm", "description": "Visit Umananda Temple" },
+  { "name": "5pm", "description": "Evening walk along Brahmaputra River" }
           ]
         },
         {
           "name": "Day2",
           "times": [
-            { "name": "9am", "description": "explore Kaziranga National Park" },
-            { "name": "11am", "description": "jeep safari" },
-            { "name": "1pm", "description": "lunch at a resort" },
-            { "name": "3pm", "description": "nature trails" },
-            { "name": "5pm", "description": "return to Guwahati" }
+            { "name": "9am", "description": "Explore Kaziranga National Park" },
+            { "name": "11am", "description": "Jeep safari" },
+            { "name": "1pm", "description": "Lunch at a resort" },
+            { "name": "3pm", "description": "Nature trails" },
+            { "name": "5pm", "description": "Return to Guwahati" }
+          
           ]
         },
         {
           "name": "Day3",
           "times": [
-            { "name": "9am", "description": "visit Sivasagar monuments" },
-            { "name": "11am", "description": "explore Rang Ghar" },
-            { "name": "1pm", "description": "lunch at a local eatery" },
-            { "name": "3pm", "description": "visit Talatal Ghar" },
-            { "name": "5pm", "description": "return journey to Guwahati" }
+            { "name": "9am", "description": "Visit Sivasagar monuments" },
+  { "name": "11am", "description": "Explore Rang Ghar" },
+  { "name": "1pm", "description": "Lunch at a local eatery" },
+  { "name": "3pm", "description": "Visit Talatal Ghar" },
+  { "name": "5pm", "description": "Return journey to Guwahati" }
           ]
         }
       ]
@@ -672,31 +674,31 @@
         {
           "name": "Day1",
           "times": [
-            { "name": "9am", "description": "arrival at Agatti Island" },
-            { "name": "11am", "description": "explore Agatti Lagoon" },
-            { "name": "1pm", "description": "lunch at a seaside cafe" },
-            { "name": "3pm", "description": "snorkeling adventure" },
-            { "name": "5pm", "description": "relax by the beach" }
+            { "name": "9am", "description": "Arrival at Agatti Island" },
+            { "name": "11am", "description": "Explore Agatti Lagoon" },
+            { "name": "1pm", "description": "Lunch at a seaside cafe" },
+            { "name": "3pm", "description": "Snorkeling adventure" },
+            { "name": "5pm", "description": "Relax by the beach" }
           ]
         },
         {
           "name": "Day2",
           "times": [
-            { "name": "9am", "description": "visit Bangaram Island" },
-            { "name": "11am", "description": "scuba diving" },
-            { "name": "1pm", "description": "picnic lunch" },
-            { "name": "3pm", "description": "explore local marine life" },
-            { "name": "5pm", "description": "sunset at the island" }
+            { "name": "9am", "description": "Visit Bangaram Island" },
+            { "name": "11am", "description": "Scuba diving" },
+            { "name": "1pm", "description": "Picnic lunch" },
+            { "name": "3pm", "description": "Explore local marine life" },
+            { "name": "5pm", "description": "Sunset at the island" }
           ]
         },
         {
           "name": "Day3",
           "times": [
-            { "name": "9am", "description": "boat trip to Kalpeni Island" },
-            { "name": "11am", "description": "kayaking" },
-            { "name": "1pm", "description": "lunch at the island" },
-            { "name": "3pm", "description": "explore coral reefs" },
-            { "name": "5pm", "description": "return to Agatti Island" }
+            { "name": "9am", "description": "Boat trip to Kalpeni Island" },
+            { "name": "11am", "description": "Kayaking" },
+            { "name": "1pm", "description": "Lunch at the island" },
+            { "name": "3pm", "description": "Explore coral reefs" },
+            { "name": "5pm", "description": "Return to Agatti Island" }
           ]
         }
       ]
@@ -749,31 +751,31 @@
         {
           "name": "Day1",
           "times": [
-            { "name": "9am", "description": "visit Victoria Memorial" },
-            { "name": "11am", "description": "explore Indian Museum" },
-            { "name": "1pm", "description": "lunch at Park Street" },
-            { "name": "3pm", "description": "walk along the Hooghly River" },
-            { "name": "5pm", "description": "evening at Prinsep Ghat" }
+            { "name": "9am", "description": "Visit Victoria Memorial" },
+            { "name": "11am", "description": "Explore Indian Museum" },
+            { "name": "1pm", "description": "Lunch at Park Street" },
+            { "name": "3pm", "description": "Walk along the Hooghly River" },
+            { "name": "5pm", "description": "Evening at Prinsep Ghat" }
           ]
         },
         {
           "name": "Day2",
           "times": [
-            { "name": "9am", "description": "visit Dakshineswar Kali Temple" },
-            { "name": "11am", "description": "explore Belur Math" },
-            { "name": "1pm", "description": "lunch at a Bengali restaurant" },
-            { "name": "3pm", "description": "explore Eco Park" },
-            { "name": "5pm", "description": "evening boat ride on Hooghly" }
+            { "name": "9am", "description": "Visit Dakshineswar Kali Temple" },
+            { "name": "11am", "description": "Explore Belur Math" },
+            { "name": "1pm", "description": "Lunch at a Bengali restaurant" },
+            { "name": "3pm", "description": "Explore Eco Park" },
+            { "name": "5pm", "description": "Evening boat ride on Hooghly" }
           ]
         },
         {
           "name": "Day3",
           "times": [
-            { "name": "9am", "description": "day trip to Sundarbans" },
-            { "name": "11am", "description": "explore mangrove forest" },
-            { "name": "1pm", "description": "lunch at a forest lodge" },
-            { "name": "3pm", "description": "wildlife safari" },
-            { "name": "5pm", "description": "return to Kolkata" }
+            { "name": "9am", "description": "Day trip to Sundarbans" },
+            { "name": "11am", "description": "Explore mangrove forest" },
+            { "name": "1pm", "description": "Lunch at a forest lodge" },
+            { "name": "3pm", "description": "Wildlife safari" },
+            { "name": "5pm", "description": "Return to Kolkata" }
           ]
         }
       ]
