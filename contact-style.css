@@ -43,11 +43,11 @@ body {
 
 .navbar a.active {
   font-weight: bold;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .navbar a:hover {
-  color: #450fc5;
+  color: #909097;
 }
 
 /* Hero Section */

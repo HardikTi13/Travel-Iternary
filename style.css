@@ -41,11 +41,11 @@ body {
   text-decoration: none;
   margin: 0 10px;
   font-size: 1rem;
-  transition: color 0.3s;
+  transition: color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-  color: #450fc5;
+  color: #909097;
 }
 
 
