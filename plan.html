@@ -36,6 +36,11 @@
   </section>
 
   <section class="plan-section">
+    <h2>Image of City</h2>
+    <div id="image"></div>
+  </section>
+
+  <section class="plan-section">
     <h2>Accommodations</h2>
     <div id="accommodations"></div>
   </section>
@@ -68,14 +73,23 @@
         .then(data => {
           const cityData = data.cityItineraries.find(itinerary => itinerary.city === destination);
 
+
+
+
           if (cityData) {
             document.getElementById("city-discription").textContent = cityData.description;
+            document.getElementById("image").innerHTML = `<img src="${cityData.image}" alt="${cityData.city}" />`;
 
+            
+            
+            
             let accommodationsHTML = '';
             cityData.accommodations.forEach(accommodation => {
             accommodationsHTML += `<h3>${accommodation.type}</h3>
                                    <p><strong>${accommodation.name}</strong>: ${accommodation.description} (Price: ${accommodation.priceRange})</p>`;
           });
+
+          
           document.getElementById("accommodations").innerHTML = accommodationsHTML;
 
 
