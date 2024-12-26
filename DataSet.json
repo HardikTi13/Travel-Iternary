@@ -3,6 +3,7 @@
     {
       "city": "Lucknow",
       "description":"Lucknow, the capital of Uttar Pradesh, is known for its rich cultural heritage, exquisite cuisine, and impressive Nawabi-era architecture. The city seamlessly blends old-world charm with modern development, famous for its tehzeeb (etiquette), kebabs, and historical monuments.",
+      "image":"https://www.india.com/wp-content/uploads/2018/08/Lucknow-1.jpg",
       "accommodations": [
         {
           "type": "Luxury",
@@ -82,7 +83,7 @@
     {
       "city": "Varanasi",
       "description":"Varanasi, also known as Kashi, is one of the oldest living cities in the world. Situated on the banks of the sacred Ganges River, Varanasi is a spiritual hub and a center of learning. The city is famous for its ghats, temples, and vibrant culture.",
-     
+      "image":"https://media.istockphoto.com/id/827065008/photo/holy-town-varanasi-and-the-river-ganges.webp?a=1&b=1&s=612x612&w=0&k=20&c=QtEgeqRAUw0e45r54qW9I79H0hxqk0_3klw_B3xD_rY=",
       "accommodations": [
         {
           "type": "Luxury",
@@ -161,6 +162,7 @@
     {
       "city": "Jaisalmer",
       "description":"Jaisalmer, the 'Golden City' of Rajasthan, is known for its majestic forts, havelis, and sand dunes. The city's golden sandstone architecture glows in the sunlight, creating a magical ambiance. Jaisalmer is a popular tourist destination offering a glimpse into the royal heritage of Rajasthan.",
+      "image":"https://media.istockphoto.com/id/465538873/photo/scenic-jaisalmer-fort-with-a-sunset.webp?a=1&b=1&s=612x612&w=0&k=20&c=OcT9zZjMMMduZUxe_1a5OlpzchuIVtxe7pyclrRrzLI=",
       "accommodations": [
         {
           "type": "Luxury",
@@ -239,7 +241,8 @@
     {
     "city": "Mumbai",
     "description":"Mumbai, the 'City of Dreams,' is a bustling metropolis known for its vibrant culture, historic landmarks, and Bollywood glamour. From iconic attractions like the Gateway of India to the bustling markets of Colaba Causeway, Mumbai offers a diverse range of experiences.",
-      "accommodations": [
+    "image":"https://media.istockphoto.com/id/1216024790/photo/gateway-of-india-mumbai.jpg?s=612x612&w=0&k=20&c=AsSJmRd5D8kHtsvHdzbgcGSn8k1M5qKtFHidauajdrk=", 
+    "accommodations": [
         {
           "type": "Luxury",
           "name": "The Taj Mahal Palace",
@@ -317,6 +320,7 @@
     {
       "city": "Kashmir",
       "description":"Kashmir, often referred to as 'Paradise on Earth,' is known for its breathtaking natural beauty, serene lakes, and snow-capped mountains. The region offers a perfect blend of adventure, culture, and relaxation, making it a popular tourist destination.",
+      "image":"https://plus.unsplash.com/premium_photo-1697730277839-440df1a4415f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a2FzaG1pcnxlbnwwfHwwfHx8MA%3D%3D",
       "accommodations": [
         {
           "type": "Luxury",
@@ -395,7 +399,8 @@
     {
       "city": "Bangalore",
       "description":"Bangalore, the 'Garden City of India,' is known for its pleasant climate, lush greenery, and vibrant culture. The city offers a mix of historical sites, modern attractions, and a thriving food scene, making it a popular destination for travelers.",
-    "accommodations": [
+      "image":"https://media.istockphoto.com/id/1192261427/photo/vidhan-soudha-bangalore.jpg?s=612x612&w=0&k=20&c=vs5YGb93RSoY4f9E4zXo6SatrR8SqTnQy26HrwKw2XQ=",
+      "accommodations": [
       {
         "type": "Luxury",
         "name": "The Leela Palace",
@@ -473,6 +478,7 @@
     {
       "city": "Goa",
       "description":"Goa, known for its stunning beaches, vibrant nightlife, and Portuguese heritage, is a popular tourist destination in India. The state offers a mix of relaxation, adventure, and culture, making it an ideal getaway for all types of travelers.",
+      "image":"https://media.istockphoto.com/id/157579910/photo/the-beach.webp?a=1&b=1&s=612x612&w=0&k=20&c=knG0gBV2spG4MOW0I6IY-gRV0aBKKeyyOmVSSeZixGo=",
       "accommodations": [
         {
           "type": "Luxury",
@@ -550,6 +556,7 @@
     },{
       "city": "Assam",
       "description":"Assam, known for its tea gardens, wildlife sanctuaries, and cultural heritage, is a beautiful state in northeastern India. The region offers a mix of natural beauty, adventure, and cultural experiences, making it an ideal destination for nature lovers and history enthusiasts.",
+      "image":"https://media.istockphoto.com/id/470248962/photo/tea-plantations-sunset.jpg?s=612x612&w=0&k=20&c=xo98EQ7-n4_nKqvzy4204GErBr4W_iRplcTqzyhj_K0=",
       "accommodations": [
         {
           "type": "Luxury",
@@ -628,6 +635,7 @@
     }, {
       "city": "Lakshadweep",
       "description":"Lakshadweep, a tropical archipelago in the Arabian Sea, is known for its pristine beaches, coral reefs, and crystal-clear waters. The islands offer a perfect escape for beach lovers, water sports enthusiasts, and nature admirers, making it an idyllic holiday destination.",
+      "image":"https://media.istockphoto.com/id/1224349638/photo/coconut-fringed-beach.jpg?s=612x612&w=0&k=20&c=26FO8pa5zcKQdqjhitHZMAgCmF_B-wDD6MDV93v5j6o=",
       "accommodations": [
         {
           "type": "Luxury",
@@ -705,6 +713,7 @@
     }, {
       "city": "West Bengal",
       "description":"West Bengal, located in eastern India, is known for its rich cultural heritage, historical landmarks, and natural beauty. The state offers a diverse range of experiences, from exploring the bustling city of Kolkata to relaxing on the serene beaches of Digha.",
+     "image":"https://media.istockphoto.com/id/1196338454/photo/view-of-howrah-bridge-from-burrabazar.jpg?s=612x612&w=0&k=20&c=3AlWNFhMfZpWOTuaNh47P5ojeQyAbQhMpf3kpj3itUU=",
       "accommodations": [
         {
           "type": "Luxury",
