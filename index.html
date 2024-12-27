@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script>
+        if (!localStorage.getItem('currentUser')) {
+            window.location.href = './login.html';
+        } else {
+            console.log("Welcome back, " + localStorage.getItem('currentUser'));
+        }
+    </script>
+    
     <div class="navbar">
         <h1>TravelIfy
             <img src="https://cdn-icons-png.flaticon.com/128/1028/1028831.png"
