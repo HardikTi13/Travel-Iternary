@@ -22,36 +22,50 @@ fetch('DataSet.json')
           alert('Please fill in all fields!');
         }
       }
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-            event.preventDefault(); 
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
 
+document.addEventListener('DOMContentLoaded', function () {
+  const loginForm = document.getElementById('loginForm');
+  const signupForm = document.getElementById('signupForm');
 
-            console.log('Username:', username);
-            console.log('Password:', password);
-
-            localStorage.setItem('username', username);
-            localStorage.setItem('password', password);
-            console.log('Stored Username:', localStorage.getItem('username'));
-            console.log('Stored Password:', localStorage.getItem('password'));
-
-            alert('Login information saved to local storage!');
-        });
-        document.getElementById('signupForm').addEventListener('submit', function(event) {
+  if (loginForm) {
+      loginForm.addEventListener('submit', function (event) {
           event.preventDefault();
-          const username = document.getElementById('username').value;
-          const password = document.getElementById('password').value;
-          const confirmPassword = document.getElementById('confirmPassword').value;
 
+          const email = document.getElementById('loginEmail').value.trim(); 
+          const password = document.getElementById('loginPassword').value.trim();
+
+    
+          const storedEmail = localStorage.getItem('email');
+          const storedPassword = localStorage.getItem('password');
+
+          if (email === storedEmail && password === storedPassword) {
+            localStorage.setItem('currentUser', email); 
+              alert('Login successful!');
+              window.location.href = 'index.html';
+          } else {
+              alert('Invalid email or password. Please try again.');
+          }
+      });
+  }
+
+  if (signupForm) {
+      signupForm.addEventListener('submit', function (event) {
+          event.preventDefault();
+
+          const email = document.getElementById('signupEmail').value.trim();
+          const password = document.getElementById('signupPassword').value.trim();
+          const confirmPassword = document.getElementById('signupConfirmPassword').value.trim();
 
           if (password !== confirmPassword) {
               alert('Passwords do not match!');
               return;
           }
 
-          localStorage.setItem('username', username);
+          localStorage.setItem('email', email);
           localStorage.setItem('password', password);
 
-          alert('Signup information saved to local storage!');
+          alert('Signup successful! You can now log in.');
+          window.location.href = 'login.html';
       });
+  }
+});
